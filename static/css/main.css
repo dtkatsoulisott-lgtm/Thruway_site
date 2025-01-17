@@ -1,0 +1,59 @@
+.temp-image{
+    border: 0.5vw outset blue;
+    background-color: black;
+    color: white;
+    /* content: Example image; */
+    /* display: grid; */
+    justify-self: center;
+}
+
+.button{
+    font-weight: 700;
+    font-size: 25px;
+    box-shadow: 0 0 20px 0 black;
+    height: 100px;
+    padding: 15px 30px;
+    background-color: rgba(00,64,35);
+    transition: background-color 0.2s ease;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+}
+
+.button:hover{
+    background-color: blue;
+}
+
+.banner{
+    box-shadow: 0 0 20px black;
+    border-block: 2px solid rgba(222,222,222);;
+    background-color: rgba(00,64,35);
+    padding-block: 30px;
+    overflow:hidden;
+    user-select: none;
+    font-size: 30px;
+    font-weight: 500;
+
+    display: flex;
+    --gap: 30px;
+    gap: var(--gap);
+}
+
+.banner ul{
+    flex-shrink: 0;
+    gap: var(--gap);
+    display:flex;
+    list-style: none;
+
+    justify-content: space-between;
+    align-items: center;
+
+    animation: bannerRoll 30s linear infinite;
+}
+
+@keyframes bannerRoll{
+    to{
+        transform: translateX(calc(-100% - var(--gap)));
+    }
+}
+
+

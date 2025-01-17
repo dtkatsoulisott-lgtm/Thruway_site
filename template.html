@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- MONTSERRRAT -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="./static/css/navstyles.css">
+        <link rel="stylesheet" href="./static/css/reset.css">
+        <link rel="stylesheet" href="./static/css/main.css">
+        <!-- <link rel="stylesheet" href="./static/css/parallax.css"> -->
+
+        <title>Welcome to Thruway Restaurant</title>
+    </head>
+    <body>
+        <!-- NAVBAR -->
+        
+        <ul id="nav" class="header" style="border: 50px  red">
+            <a href="index.html"><img src="static/images/Logo.webp" id="logo" class="logo"></a>
+            <div class="header-list">
+                <li><a href="menu.html">Our Menu</a></li>
+                <li><a href="https://order.valleyeats.ca/carletonplace/thruway-restaurant/#">Take-out</a></li>
+                <li><a href="tel:(613)-257-5326">Phone</a></li>
+            </div>   
+        </ul>
+        <!-- BACKGROUND PARALLAX -->
+        
+        <div class="bg-parallax" style="position: fixed; height:100vh; background-color: black; background-image: url(static/images/restaurant.webp);">
+            <div style="margin: 45vh 12.5% 0 12.5%; width: 75%;">
+                <a href="index.html" class="button">Menu</a>
+                <p style="margin: 28px 0; color: aliceblue; font-size: 1.2em; text-shadow: 0 0 5px black">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                </p>
+            </div>
+        </div>
+        <!-- FOREGROUND PARALLAX -->
+        <div style="height: 50vh; width: 100vw; position:absolute; margin-top:75vh; display: grid;">
+            <!-- BANNER -->
+            <div class="banner">
+                <ul>
+                    <li>THRUWAY RESTAURANT</li>
+                    <li>MENU ITEM</li>
+                    <li>TAKE-OUT</li>
+                    <li>YUMMY DISH</li>
+                    <li>THRUWAY RESTAURANT</li>
+                    <li>MENU ITEM</li>
+                    <li>TAKE-OUT</li>
+                    <li>YUMMY DISH</li>
+                    <li>THRUWAY RESTAURANT</li>
+                    <li>MENU ITEM</li>
+                    <li>TAKE-OUT</li>
+                    <li>YUMMY DISH</li>
+                </ul>
+                <ul aria-hidden="true">
+                    <li>THRUWAY RESTAURANT</li>
+                    <li>MENU ITEM</li>
+                    <li>TAKE-OUT</li>
+                    <li>YUMMY DISH</li>
+                    <li>THRUWAY RESTAURANT</li>
+                    <li>MENU ITEM</li>
+                    <li>TAKE-OUT</li>
+                    <li>YUMMY DISH</li>
+                    <li>THRUWAY RESTAURANT</li>
+                    <li>MENU ITEM</li>
+                    <li>TAKE-OUT</li>
+                    <li>YUMMY DISH</li>
+                    
+                </ul>
+            </div>
+
+            <div class="fg-parallax" style="background-color: rgb(20, 20 ,20); padding: 50px 12.5%; width: 75%">
+                <p>Test test test</p>
+                <div class="temp-image" style="padding-top: 900px; width:100%;"></div>
+            </div>
+        </div>
+        <!-- SCRIPTS TO LOAD AFTER DOM IS LOADED -->
+        <script src="scripts/nav.js"></script>
+    </body>
+</html>
