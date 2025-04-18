@@ -1,5 +1,15 @@
 {
-    "appetizers":{
-        "name": "fish"
+"crtl+f to find these menu categories":[
+    "appetizers",
+    "entrees"
+],
+
+
+"appetizers":[
+    {
+    "name": "fish",
+    "description" : "fishy thing",
+    "price": 100
     }
+]
 }

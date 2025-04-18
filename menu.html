@@ -2,8 +2,19 @@
 <html lang="en">
     <head>
         <script src="scripts/json_serve.js"></script>
+
+        <link rel="stylesheet" href="./static/css/navstyles.css">
+        <link rel="stylesheet" href="./static/css/reset.css">
+        <link rel="stylesheet" href="./static/css/menuStyles.css">
     </head>
     <body>
-        <div id="appetizer-div">hey</div>
+        <div class="menu-button-list">
+            <button class="menu-button" onclick="serveCategory('menu', 'appetizers')">load appetizers</button>
+        </div>
+        
+        <span></span>
+        <div id="menu"></div>
+
+        
     </body>
 </html>

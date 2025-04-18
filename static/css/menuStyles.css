@@ -1,0 +1,23 @@
+#menu{
+    width: 60%;
+    margin: 0 5%;
+}
+
+.menu-entry{
+    display: flex;
+    justify-content: space-between;
+    list-style-type:circle;
+}
+
+.menu-entry>*{
+    color: black;
+    padding: 20px 0;
+    padding-left: 5px;
+}
+
+.menu-button-list{
+    margin: 25px;
+}
+.menu-button{
+    color: black;
+}

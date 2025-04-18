@@ -25,7 +25,7 @@
 
 .banner{
     box-shadow: 0 0 20px black;
-    border-block: 2px solid rgba(222,222,222);;
+    border-block: 2px solid rgba(222,222,222);
     background-color: rgba(00,64,35);
     padding-block: 30px;
     overflow:hidden;
