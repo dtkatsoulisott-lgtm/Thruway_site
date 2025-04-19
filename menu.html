@@ -8,6 +8,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         
+        <!-- SCRIPTS AND STYLES -->
         <script src="scripts/json_serve.js"></script>
 
         <link rel="stylesheet" href="./static/css/navstyles.css">
@@ -27,20 +28,41 @@
             </div>   
         </ul>
 
-        <!-- MENU -->
+        <!-- MENU OPTIONS -->
         <div class="menu-button-list">
             <button class="menu-button" onclick="
-                document.getElementById('menu').textContent = '';
-                serveCategory('menu', 'appetizers'); 
+                clearContext();
+                serveCategoryWithTitle('menu-1', 'appies', 'appetizers'); 
             ">load appetizers</button>
             <button class="menu-button" onclick="
-                document.getElementById('menu').textContent = '';
-                serveCategory('menu', 'soups and salads');
+                clearContext();
+                serveCategoryWithTitle('menu-1', 'soups', 'soups and salads'); 
             ">load soups n salads</button>
+            <button class="menu-button" onclick="
+                clearContext();
+                serveCategoryWithTitle('menu-1', 'sandwiches', 'sandwiches'); 
+                serveCategoryWithTitle('menu-2', 'triple deckers', 'triple deckers'); 
+                serveCategoryWithTitle('menu-3', 'wraps', 'wraps'); 
+            ">Sandwiches and Wraps</button>
+            <button class="menu-button" onclick="
+                clearContext();
+                serveCategoryWithTitle('menu-1', 'Pasta Dishes', 'pasta'); 
+            ">Pasta Dishes</button>
+            <button class="menu-button" onclick="
+                clearContext();
+                serveCategoryWithTitle('menu-1', 'Pizza', 'pizza'); 
+            ">Pizza</button>
         </div>
         
+        <!-- MENU -->
         <span></span>
-        <div id="menu"></div>
+        <div id="menu-panel">
+            <div id="menu-1" class="menu"></div>
+            <div id="menu-2" class="menu"></div>
+            <div id="menu-3" class="menu"></div>
+            <div id="menu-4" class="menu"></div>
+            <div id="menu-5" class="menu"></div>
+        </div>
 
         <!-- SCRIPTS TO LOAD AFTER DOM IS LOADED -->
         <script src="scripts/nav.js"></script>

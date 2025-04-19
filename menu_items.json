@@ -49,8 +49,8 @@
     {
         "name": "Garlic Bread (3)",
         "description" : [
-            "Add cheese 5.95",
-            "Add cheese and bacon 6.95"
+            "Add cheese - 5.95",
+            "Add cheese and bacon - 6.95"
         ],
         "price": "4.95"
     },
@@ -74,10 +74,10 @@
     },
     {
         "name": "French Fries",
-        "description" : "Add Gravy 1.50",
+        "description" : "Add Gravy - 1.50",
         "price": [
-            "Sm. 6.95",
-            "Lg. 8.95"
+            "Sm. - 6.95",
+            "Lg. - 8.95"
         ]
     },
     {
@@ -85,7 +85,357 @@
         "price": "10.95"
     }
 ],
+"burgers":[
+    {
+        "name": "*All burgers are served with fries and coleslaw*"
+    },
+    {
+        "name": "Hamburger Deluxe",
+        "description" : "All beef burger on a bun topped with lettuce, tomatoes, relish and onions",
+        "price": "15.95"
+    },
+    {
+        "name": "Cheese Burger Deluxe",
+        "description" : "All beef burger with cheese on a bun topped with lettuce, tomatoes, relish and onions",
+        "price": "16.95"
+    },
+    {
+        "name": "Bacon Cheese Burger Deluxe",
+        "description" : "Charbroiled burger with cheese and bacon, topped with lettuce, tomatoes, relish and onions",
+        "price": "17.95"
+    },
+    {
+        "name": "Double Decker Burger Deluxe",
+        "description" : "Two all beef burger patties charbroiled on a bun, topped with lettuce, tomatoes, relish and onions",
+        "price": "20.95"
+    },
+    {
+        "name": "Rocky Mountain Burger",
+        "description" : "Charbroiled burger with cheese topped with mushrooms, BBQ sauce, lettuce, tomatoes, relish and onions",
+        "price": "18.95"
+    },
+    {
+        "name": "Canadiana Burger",
+        "description" : "Charbroiled burger with cheese topped with Canadian back bacon, BBQ sauce, lettuce, tomatoes, relish and onions",
+        "price": "18.95"
+    },
+    {
+        "name": "Italian Burger",
+        "description" : "All beef burger on a bun, smothered with homemade meat sauce",
+        "price": "18.95"
+    },
+    {
+        "name": "Chicken Breast Burger",
+        "description" : "Grilled chicken breast on a bun topped with lettuce, tomato and onions",
+        "price": "17.95"
+    },
+    {
+        "name": "Crispy Chicken Burger",
+        "description" : "Breaded chicken breast on a bun topped with lettuce, onions and tomatoes",
+        "price": "16.95"
+    }
+],
+"greek dishes":[
+    {
+        "name": "Pork Souvlaki Platter",
+        "description" : "Two marinated pork skewers served on a bed of rice with Greek salad and roasted potatoes",
+        "price": "19.95"
+    },
+    {
+        "name": "Chicken Brochette Platter",
+        "description" : "Two marinated chicken skewers served on a bed of rice with Greek salad and roasted potatoes",
+        "price": "20.95"
+    },
+    {
+        "name": "Souvlaki Combo",
+        "description" : "Two marinated skewers (one pork and one chicken) served on a bed of rice with Greek salad and roasted potatoes",
+        "price": "20.95"
+    }
+],
+"pasta":[
+    {
+        "name" : "*All pasta dishes are served with garlic bread*"
+    },
+    {
+        "name": "Spaghetti and Meat Sauce",
+        "description" : "Fresh spaghetti pasta served with our homemade meat sauce",
+        "price": "16.95"
+    },
+    {
+        "name": "Fettuccine Alfredo",
+        "description" : [
+            "Fettuccine pasta tossed in alfredo cream sauce",
+            "Add Chicken - 4.95",
+            "Add Shrimp - 5.95"
+        ],
+        "price": "17.95"
+    },
+    {
+        "name": "Shrimp Alfonso",
+        "description" : "Sautéed garlic shrimp tossed in fettuccine pasta with a rose cream sauce",
+        "price": "20.95"
+    },
+    {
+        "name": "Baked Spaghetti with Pepperoni",
+        "description" : "Fresh spaghetti pasta, oven baked with our homemade meat sauce and Mozzarella cheese",
+        "price": "19.95"
+    },
+    {
+        "name": "Baked Lasagna",
+        "description" : "Layers of pasta and homemade meat sauce, oven baked with Mozzarella cheese",
+        "price": "18.50"
+    },
+    {
+        "name": "Chicken Parmesan",
+        "description" : "Breaded chicken parmesan, baked with tomato sauce and Mozzarella cheese. Served with spaghetti and meat sauce",
+        "price": "19.95"
+    },
+    {
+        "name": "Veal Parmesan",
+        "description" : "Breaded veal cutlet, oven baked with tomato sauce and Mozzarella cheese. Served with spaghetti and meat sauce",
+        "price": "22.95"
+    },
+    {
+        "name": "Italian Combo",
+        "description" : "Lightly breaded veal, penne and lasagna, oven baked to perfection",
+        "price": "24.95"
+    },
+    {
+        "name": "Extra Sides:",
+        "description" : [
+            "Meat Sauce - 2.95",
+            "Tomato Sauce - 2.50",
+            "Alfredo Sauce - 3.95"
+        ]
+    }
+],
+"pizza":[
+    {
+        "name": "Cheese",
+        "description" : [
+            "10\" - 14.45",
+            "12\" - 17.45",
+            "15\" - 23.49",
+            "18\" - 27.45"
+        ]
+    },
+    {
+        "name": "Pepperoni",
+        "description" : [
+            "10\" - 15.05",
+            "12\" - 19.35",
+            "15\" - 25.00",
+            "18\" - 30.00"
+        ]
+    },
+    {
+        "name": "Pepperoni & Mushroom",
+        "description" : [
+            "10\" - 16.00",
+            "12\" - 20.30",
+            "15\" - 26.00",
+            "18\" - 31.45"
+        ] 
+    },
+    {
+        "name": "Combination",
+        "description" : [
+            "(Pepperoni, Mushrooms & Green Peppers)",
+            "10\" - 16.75",
+            "12\" - 21.00",
+            "15\" - 29.00",
+            "18\" - 34.35"
+        ]
+    },
+    {
+        "name": "Canadian",
+        "description" : [
+            "(Pepperoni, Bacon & Mushrooms)",
+            "10\" - 17.45",
+            "12\" - 21.45",
+            "15\" - 29.45",
+            "18\" - 34.45"
+        ]
+    },
+    {
+        "name": "Hawaiian",
+        "description" : [
+            "(Ham & Pineapple)",
+            "10\" - 18.45",
+            "12\" - 23.00",
+            "15\" - 29.00",
+            "18\" - 34.45"
+        ]
+    },
+    {
+        "name": "Thruway Special",
+        "description" : [
+            "(Thruway Meat Sauce, Pepperoni, Mushrooms, Green Peppers & Bacon)",
+            "10\" - 18.45",
+            "12\" - 23.05",
+            "15\" - 29.00",
+            "18\" - 35.45"
+        ]
+    },
+    {
+        "name": "Vegetarian",
+        "description" : [
+            "(Mushrooms, Green Peppers, Tomatoes, Onions & Green Olives)",
+            "10\" - 16.45",
+            "12\" - 21.00",
+            "15\" - 29.00",
+            "18\" - 35.45"
+        ]
+    },
+    {
+        "name": "Meat Lovers",
+        "description" : [
+            "(Pepperoni, Bacon, Ham and Sausage)",
+            "10\" - 20.45",
+            "12\" - 24.45",
+            "15\" - 32.00",
+            "18\" - 37.35"
+        ]
+    },
+    {
+        "name": "Tex-Mex",
+        "description" : [
+            "(Spicy Chicken, Mushrooms, Onions & Green Peppers)",
+            "10\" - 20.45",
+            "12\" - 24.30",
+            "15\" - 31.00",
+            "18\" - 33.35"
+        ]
+    },
+    {
+        "name": "Extra Sauce",
+        "description" : [
+            "10\" - 0.95",
+            "12\" - 1.15",
+            "15\" - 1.55",
+            "18\" - 1.95"
+        ]
+    },
+    {
+        "name": "Extra Ingredients",
+        "description" : [
+            "Bacon - Black Olives - Cheese - Green Olives - Green Peppers - Hot Peppers - Ham - Mushrooms - Onions - Pepperoni - Pineapple - Sausage - Tomatoes",
+            "",
+            "10\" - 2.40",
+            "12\" - 3.45",
+            "15\" - 3.95",
+            "18\" - 4.95"
+        ]
+    }
+],
+"poutine":[
+    {
+        "name": "Poutine",
+        "price": "10.95"
+    },
+    {
+        "name": "Italian Poutine",
+        "price": "13.95"
+    },
+    {
+        "name": "Chicken Poutine",
+        "price": "15.95"
+    },
+    {
+        "name": "Smoked Meat Poutine",
+        "price": "15.95"
+    },
+    {
+        "name": "Sweet Potato Poutine",
+        "price": "14.95"
+    }
+],
+"sandwiches":[
+    {
+        "name": "Montreal Style Smoked Meat",
+        "description" : "Smoked meat piled high on toasted rye bread with fries and coleslaw",
+        "price": "16.95"
+    },
+    {
+        "name": "Ruben Sandwich",
+        "description" : "With sauerkraut and mozzarella cheese, on toasted rye with fries and coleslaw",
+        "price": "18.95"
+    },
+    {
+        "name": "Steak sandwich",
+        "description" : "A charbroiled sirloin steak served on garlic bread and topped with fried onions. Served with fries",
+        "price": "19.95"
+    },
+    {
+        "name": "Chicken Quesadilla",
+        "description" : "Tortilla stuffed with chicken, salsa and jack cheese, and toasted over the grill. Served with garden salad",
+        "price": "17.95"
+    },
+    {
+        "name": "Turkey Sandwich",
+        "price": "7.95"
+    },
+    {
+        "name": "BLT Sandwich",
+        "price": "7.50"
+    }
+],
+"seafood":[
+    {
+        "name":"Breaded Fillet of Sole",
+        "description":"A lightly breaded fillet of sole. Served with potatoes, vegetables and tartar sauce",
+        "price":"16.95"
+    },
+    {
+        "name":"Fish & Chips",
+        "description":"Lightly battered English style Pollock. Served with coleslaw, tartar sauce and fries",
+        "price":[
+            "1Pc. 15.95",
+            "2Pc. 18.95"
+        ]
+    },
+    {
+        "name":"Rainbow Trout",
+        "description":"Lightly breaded trout cooked and garnished with herbs and spices. Served with vegetables and potatoes",
+        "price":"17.95"
+    },
+    {
+        "name":"Breaded Scallops",
+        "description":"Lightly breaded scallops served on a bed of rice with roasted potatoes and garden salad",
+        "price":"19.95"
+    },
+    {
+        "name":"Breaded Shrimps",
+        "description":"Lightly breaded shrimps served on a bed of rice with roasted potatoes and garden salad",
+        "price":"20.95"
+    },
+    {
+        "name":"Seafood Platter",
+        "description":"A combination of breaded shrimps, breaded scallops and breaded fillet of sole. Served with rice, potatoes and garden salad",
+        "price":"26.95"
+    }
+],
+"senior's menu":[
+    {
+        "name":"Single Pork Souvlaki Platter",
+        "description":"One marinated pork skewer served on a bed of rice with Greek salad and roasted potatoes",
+        "price":"15.95"
+    },
+    {
+        "name":"Single Chicken Brochette Platter",
+        "description":"One marinated chicken skewer served on a bed of rice with Greek salad and roasted potatoes",
+        "price":"15.95"
+    },
+    {
+        "name":"Single Pork Souvlaki Platter",
+        "description":"Lightly battered English style Pollock. Served with coleslaw, tartar sauce and fries",
+        "price":"1Pc. 15.95"
+    }
+],
 "soups and salads":[
+    {
+        "name": "*Salads come with your choice of Balsamic, French, House, Italian, Ranch, Raspberry or Thousand Island dressing*"
+    },
     {
         "name": "Soup Of The Day",
         "price": "4.50"
@@ -133,19 +483,193 @@
         "name": "Garden Salad",
         "description" : "Romaine lettuce, cucumbers, onions and tomatoes with choice of dressing",
         "price": [
-            "Sm. 7.95",
-            "Lg. 13.50"
+            "Sm. - 7.95",
+            "Lg. - 13.50"
         ]
-    },
-    {
-        "description": "*Salads come with your choice of Balsamic, French, House, Italian, Ranch, Raspbaeryy or Thousand Island dressing*"
     }
 ],
-"sandwiches and wraps":[
+"steaks":[
     {
-        "name": "Stuffed Jalapeño Poppers",
-        "description" : "Golden fried peppers stuffed with a creamy cheese and hot jalapeños",
-        "price": "10.95"
+        "name":"*Served with your choice of baked, mashed, roasted potatoes, fries or rice*"
+    },
+    {
+        "name":"New York Steak",
+        "description":"The ultimate of steaks charbroiled to your liking. Served with vegetables, mushrooms and choice of potato",
+        "price":"33.95"
+    },
+    {
+        "name":"Black Peppercorn Steak",
+        "description":"New York Steak topped with black peppercorn mushroom sauce. Served with vegetables and choice of potato",
+        "price":"33.95"
+    },
+    {
+        "name":"Rib Steak",
+        "description":"Generous cut of well marbled rib steak, charbroiled to your liking. Served with mushrooms, vegetables and choice of potato",
+        "price":"33.95"
+    },
+    {
+        "name":"Steak and Shrimp",
+        "description":"New York Steak with baked garlic shrimp. Served with vegetables, rice and choice of potato",
+        "price":"38.95"
+    },
+    {
+        "name":"Steak and Caesar",
+        "description":"New York Steak topped mushrooms. Served with Caesar salad and garlic bread",
+        "price":"33.95"
+    },
+    {
+        "name":"Pepper Steak",
+        "description":"Tender cubes of prime beef, green peppers, onions and mushrooms, sautéed in a delicate red wine sauce and served with choice of potato",
+        "price":"29.95"
+    }
+],
+"stir fry":[
+    {
+        "name": "Vegetable Stir Fry",
+        "description" : "Sautéed vegetables tossed in teriyaki sauce and served on a bed of rice",
+        "price": "17.95"
+    },
+    {
+        "name": "Chicken Stir Fry",
+        "description" : "Sautéed vegetables and chicken tossed in teriyaki sauce and served on a bed of rice",
+        "price": "19.95"
+    },
+    {
+        "name": "Steak Stir Fry",
+        "description" : "Sautéed vegetables and steak tossed in teriyaki sauce and served on a bed of rice",
+        "price": "20.95"
+    },
+    {
+        "name": "Shrimp Stir Fry",
+        "description" : "Sautéed vegetables and shrimp tossed in teriyaki sauce and served on a bed of rice",
+        "price": "21.95"
+    }
+],
+"traditional favourites":[
+    {
+        "name" : "All dishes served with vegetables and choice of potato"
+    },
+    {
+        "name":"Virginia Ham Steak",
+        "description":"Eight-ounce ham steak grilled with a pineapple ring",
+        "price":"15.95"
+    },
+    {
+        "name":"Hot Turkey",
+        "description":"Fresh turkey heaped between two layers of bread and topped with home-style gravy",
+        "price":"16.95"
+    },
+    {
+        "name":"All White Meat",
+        "price":"1.50"
+    },
+    {
+        "name":"Hot Hamburger",
+        "description":"All beef patty on white bread and topped with home-style gravy",
+        "price":"18.95"
+    },
+    {
+        "name":"Hamburger Steak",
+        "description":"Seasoned all beef patty charbroiled to perfection and topped with sautéed onions and home-style gravy",
+        "price":"19.95"
+    },
+    {
+        "name":"Beef Pot Roast",
+        "description":"Sliced beef roasted in special seasonings. Topped with fresh mushrooms and home style-style gravy",
+        "price":"18.95"
+    },
+    {
+        "name":"Roast Turkey Dinner",
+        "description":[
+            "Fresh sliced white and dark turkey meat with stuffing and topped with home-style gravy. Served with cranberry sauce",
+            "All White Meat - 1.50"
+        ],
+        "price":"18.95"
+    },
+    {
+        "name":"Thruway's Famous Baby Beef Liver",
+        "description":"Grilled baby beef liver, lightly breaded with sautéed onions or bacon, and topped with home-style gravy",
+        "price":"18.95"
+    },
+    {
+        "name":"Breaded Veal Cutlet",
+        "description":"Breaded veal cutlet topped with tomato sauce",
+        "price":"21.50"
+    }
+],
+"triple deckers":[
+    {
+        "name" : "*All sandwich platters are served with fries and coleslaw*"
+    },
+    {
+        "name": "Clubhouse Sandwich",
+        "description" : "Sliced turkey, bacon, tomato and lettuce",
+        "price": "16.95"
+    },
+    {
+        "name": "Thruway Club",
+        "description" : "Ham, turkey, bacon, cheese, tomato and lettuce",
+        "price": "18.95"
+    },
+    {
+        "name": "Smoked Meat Club",
+        "description" : "Sliced smoked meat, mustard, bacon, tomato and lettuce",
+        "price": "20.95"
+    },
+    {
+        "name": "Veggie Club",
+        "description" : "Sliced tomatoes, cucumbers, onions, and lettuce. Served with garden salad",
+        "price": "17.95"
+    }
+],
+"wraps":[
+    {
+        "name" : "*All wraps are served with fries and coleslaw*"
+    },
+    {
+        "name": "BLT Wrap",
+        "description" : "Tortilla stuffed with lettuce, tomato, mayo and bacon",
+        "price": "14.95"
+    },
+    {
+        "name": "Veggie Wrap",
+        "description" : "Tortilla stuffed with lettuce, tomato, cucumber, onion, green peppers and salsa",
+        "price": "16.95"
+    },
+    {
+        "name": "Buffalo Chicken Wrap",
+        "description" : "Tortilla stuffed with crispy chicken, lettuce, bacon and BBQ hot sauce",
+        "price": "17.95"
+    },
+    {
+        "name": "Chicken Fajita Wrap",
+        "description" : "Tortilla stuffed with chicken, sautéed onions, green and red peppers, rice, jack cheese, salsa and lettuce",
+        "price": "17.95"
+    },
+    {
+        "name": "Chicken Caesar Wrap",
+        "description" : "Tortilla stuffed with chicken, bacon and Caesar salad",
+        "price": "17.95"
+    },
+    {
+        "name": "Club Wrap",
+        "description" : "Tortilla stuffed with lettuce, tomato, bacon, turkey and mayo",
+        "price": "17.95"
+    },
+    {
+        "name": "Smoked Meat Wrap",
+        "description" : "Tortilla stuffed with smoked meat, lettuce, tomato, bacon, mustard and mayo",
+        "price": "19.95"
+    },
+    {
+        "name": "Summer Wrap",
+        "description" : "Tortilla stuffed with lettuce, salsa, jack cheese, bacon, turkey and special sauce",
+        "price": "17.95"
+    },
+    {
+        "name": "Texas Wrap",
+        "description" : "Tortilla stuffed with lettuce, salsa, jack cheese, nacho chips, chicken and special sauce",
+        "price": "17.95"
     }
 ]
 

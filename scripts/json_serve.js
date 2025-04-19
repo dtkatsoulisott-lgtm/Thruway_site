@@ -44,11 +44,27 @@ async function serveCategory(menuTag, objCategory) {
     }
 }
 
+function clearContext(){
+    menu1 = document.getElementById("menu-1");
+    menu2 = document.getElementById("menu-2");
+    menu3 = document.getElementById("menu-3");
+    menu4 = document.getElementById("menu-4");
+    menu5 = document.getElementById("menu-5");
+
+    menu1.textContent = '';
+    menu2.textContent = '';
+    menu3.textContent = '';
+    menu4.textContent = '';
+    menu5.textContent = '';
+}
+
 async function serveCategoryWithTitle(menuTag, titleField, objCategory){
+    
     const menu = document.getElementById(menuTag);
     const title = document.createElement("h1");
-    title.innerText = titleField
+    title.classList.add("menu-title")
+    menu.appendChild(title);
+    title.innerText = titleField.toUpperCase()
     
     await serveCategory(menuTag, objCategory);
-    menu.appendChild(title);
 }
