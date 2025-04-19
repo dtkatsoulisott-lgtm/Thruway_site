@@ -1,20 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- MONTSERRRAT -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        
         <script src="scripts/json_serve.js"></script>
 
         <link rel="stylesheet" href="./static/css/navstyles.css">
         <link rel="stylesheet" href="./static/css/reset.css">
         <link rel="stylesheet" href="./static/css/menuStyles.css">
+
+        <title>Thruway Restaurant Menu</title>
     </head>
     <body>
+        <!-- NAVBAR -->
+        <ul id="nav" class="header" style="border: 50px  red">
+            <a href="index.html"><img src="static/images/Logo.webp" id="logo" class="logo"></a>
+            <div class="header-list">
+                <li><a href="menu.html">Our Menu</a></li>
+                <li><a href="https://order.valleyeats.ca/carletonplace/thruway-restaurant/#">Take-out</a></li>
+                <li><a href="tel:(613)-257-5326">Phone</a></li>
+            </div>   
+        </ul>
+
+        <!-- MENU -->
         <div class="menu-button-list">
-            <button class="menu-button" onclick="serveCategory('menu', 'appetizers')">load appetizers</button>
+            <button class="menu-button" onclick="
+                document.getElementById('menu').textContent = '';
+                serveCategory('menu', 'appetizers'); 
+            ">load appetizers</button>
+            <button class="menu-button" onclick="
+                document.getElementById('menu').textContent = '';
+                serveCategory('menu', 'soups and salads');
+            ">load soups n salads</button>
         </div>
         
         <span></span>
         <div id="menu"></div>
 
-        
+        <!-- SCRIPTS TO LOAD AFTER DOM IS LOADED -->
+        <script src="scripts/nav.js"></script>
     </body>
 </html>

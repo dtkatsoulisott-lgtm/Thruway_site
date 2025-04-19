@@ -1,15 +1,152 @@
 {
 "crtl+f to find these menu categories":[
     "appetizers",
-    "entrees"
+    "breakfast"
 ],
 
-
+"breakfast": [
+    {
+        "type": 1111,
+        "name": ""
+    }
+],
 "appetizers":[
     {
-    "name": "fish",
-    "description" : "fishy thing",
-    "price": 100
+        "name": "Stuffed Jalapeño Poppers",
+        "description" : "Golden fried peppers stuffed with a creamy cheese and hot jalapeños",
+        "price": "10.95"
+    },
+    {
+        "name": "Zucchini Sticks",
+        "description" : "Lightly breaded zucchini sticks golden fried. Served with dipping sauce",
+        "price": "12.85"
+    },
+    {
+        "name": "Mozzarella Sticks",
+        "description" : "Golden fried cheese sticks. Served with dipping sauce",
+        "price": "10.95"
+    },
+    {
+        "name": "Spinach & Artichoke Dip",
+        "description" : "Melted jack cheese, parmesan, spinach and artichoke hearts. Served with pita bread",
+        "price": "13.95"
+    },
+    {
+        "name": "Trio Combination",
+        "description" : "Two lightly breaded strips of chicken, golden fried zucchini and Spanish onion rings. Served with plum sauce and house dressing",
+        "price": "17.95"
+    },
+    {
+        "name": "Egg Rolls",
+        "description" : "Two golden fried egg rolls. Served with plum sauce",
+        "price": "4.50"
+    },
+    {
+        "name": "Spanish Onion Rings",
+        "description" : "Lightly breaded Spanish onion rings golden fried",
+        "price": "4.95"
+    },
+    {
+        "name": "Garlic Bread (3)",
+        "description" : [
+            "Add cheese 5.95",
+            "Add cheese and bacon 6.95"
+        ],
+        "price": "4.95"
+    },
+    {
+        "name": "Chicken Wings",
+        "description" : "Hot, Medium, Mild, or Honey Garlic",
+        "price": [
+            "(12) - 15.95",
+            "(24) - 26.95"
+        ]
+    },
+    {
+        "name": "Nachos Supreme",
+        "description" : "Choose from chicken, beef or vegetarian with red onions, black olives, green peppers, salsa and jack cheese",
+        "price": "17.95"
+    },
+    {
+        "name": "Plain Nachos",
+        "description" : "Salsa and cheese",
+        "price": "15.95"
+    },
+    {
+        "name": "French Fries",
+        "description" : "Add Gravy 1.50",
+        "price": [
+            "Sm. 6.95",
+            "Lg. 8.95"
+        ]
+    },
+    {
+        "name": "Sweet Potato Fries",
+        "price": "10.95"
+    }
+],
+"soups and salads":[
+    {
+        "name": "Soup Of The Day",
+        "price": "4.50"
+    },
+    {
+        "name": "Thruway Onion Soup",
+        "price": "8.95"
+    },
+    {
+        "name": "Chicken Taco Salad",
+        "description" : "Grilled chicken, served in a tortilla shell with lettuce, tomatoes, onions, cucumbers, shredded cheese, and house dressing",
+        "price": "18.95"
+    },
+    {
+        "name": "Julienne Salad",
+        "description" : "Crisp greens garnished with slices of turkey, ham and cheese with house dressing",
+        "price": "18.95"
+    },
+    {
+        "name": "Chicken Greek Salad",
+        "description" : "Tender grilled chicken served on Greek salad. Served with garlic bread",
+        "price": "18.95"
+    },
+    {
+        "name": "Greek Salad",
+        "description" : "Romaine lettuce, tomatoes, cucumbers, onions, Kalamata olives and feta cheese. Sprinkled with oregano and Greek dressing. Served with garlic bread",
+        "price": "15.95"
+    },
+    {
+        "name": "Chicken Caesar Salad",
+        "description" : "Tender grilled chicken served on freshly tossed Caesar salad. Served with garlic bread",
+        "price": "17.95"
+    },
+    {
+        "name": "Caesar Salad",
+        "description" : "Romaine lettuce, bacon bits and croutons, tossed in a Caesar dressing. Served with garlic bread",
+        "price": "15.95"
+    },
+    {
+        "name": "Chicken Garden Salad",
+        "description" : "Tender grilled chicken served on a fresh garden salad. Served with garlic bread",
+        "price": "17.95"
+    },
+    {
+        "name": "Garden Salad",
+        "description" : "Romaine lettuce, cucumbers, onions and tomatoes with choice of dressing",
+        "price": [
+            "Sm. 7.95",
+            "Lg. 13.50"
+        ]
+    },
+    {
+        "description": "*Salads come with your choice of Balsamic, French, House, Italian, Ranch, Raspbaeryy or Thousand Island dressing*"
+    }
+],
+"sandwiches and wraps":[
+    {
+        "name": "Stuffed Jalapeño Poppers",
+        "description" : "Golden fried peppers stuffed with a creamy cheese and hot jalapeños",
+        "price": "10.95"
     }
 ]
+
 }
