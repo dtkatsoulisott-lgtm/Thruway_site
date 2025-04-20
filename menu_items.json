@@ -4,6 +4,7 @@
     "breakfast"
 ],
 
+"---------------------------------------------------- FOOD":[],
 "breakfast": [
     {
         "type": 1111,
@@ -133,6 +134,56 @@
         "name": "Crispy Chicken Burger",
         "description" : "Breaded chicken breast on a bun topped with lettuce, onions and tomatoes",
         "price": "16.95"
+    }
+],
+"chicken and ribs":[
+    {
+        "name":"Chicken Finger Platter",
+        "description":"Lightly breaded and seasoned chicken fingers. Served with fries, coleslaw and plum sauce",
+        "price":"17.95"
+    },
+    {
+        "name":"Half BBQ Chicken",
+        "description":"Southern roasted 1/2 chicken with BBQ chicken. Served with coleslaw and fries",
+        "price":"18.95"
+    },
+    {
+        "name":"Grilled Chicken Breast",
+        "description":"Marinated chicken breast charbroiled to perfection. Served on a bed of rice with garden salad and potatoes",
+        "price":"18.95"
+    },
+    {
+        "name":"Chicken Cordon Bleu",
+        "description":"Lightly breaded chicken breast stuffed with ham and Swiss cheese, and topped with tomato sauce and Mozzarella cheese. Served with spaghetti and meat sauce",
+        "price":"18.95"
+    },
+    {
+        "name":"Chicken Kiev",
+        "description":"Lightly breaded boneless breast of chicken stuffed with herbs and spices. Served with vegetables and potatoes",
+        "price":"19.50"
+    },
+    {
+        "name":"Chicken Marsala",
+        "description":"Sautéed chicken fillet in a savory marsala wine sauce with garlic and mushrooms. Served with vegetables and potatoes",
+        "price":"19.95"
+    },
+    {
+        "name":"Chicken Creole",
+        "description":"Sautéed chicken fillet in a savory wine sauce with mushrooms, onions and tomatoes. Served with vegetables and potatoes",
+        "price":"19.95"
+    },
+    {
+        "name":"Ribs",
+        "description":"Side ribs served with coleslaw, BBQ sauce and your choice of potatoes",
+        "price":[
+            "Half Rack - 18.95",
+            "Full Rack - 23.95"
+        ]
+    },
+    {
+        "name":"1/2 Rack Ribs and 6 Chicken Wings Combo",
+        "description":"Side ribs served with coleslaw, BBQ sauce and your choice of potatoes",
+        "price":"24.95"
     }
 ],
 "greek dishes":[
@@ -670,6 +721,159 @@
         "name": "Texas Wrap",
         "description" : "Tortilla stuffed with lettuce, salsa, jack cheese, nacho chips, chicken and special sauce",
         "price": "17.95"
+    }
+],
+"---------------------------------------------------- DRINKS":[],
+"beer":[
+    {
+        "name":"Domestic - Bottle",
+        "description":"Blue, Blue Light, Budweiser, Canadian, Coors Light, Michelob Ultra",
+        "price":"5.70"      
+    },
+    {
+        "name":"Imported Beer - Bottle",
+        "description":"Corona, Heineken",
+        "price":"6.95"      
+    },
+    {
+        "name":"Beer on Tap",
+        "description":"Alexander Keith's, Coors Light, Keith's Red",
+        "price":"(20oz.) 7.50"      
+    },
+    {
+        "name":"Imported Beer on Tap",
+        "description":"Stella Artois",
+        "price":"(20oz.) 8.50"      
+    },
+    {
+        "name":"Pitcher - Draught",
+        "description":"Alexander Keith's, Coors Light, Keiths Red",
+        "price":"(60oz.) 21.95"      
+    },
+    {
+        "name":"Stella Artois",
+        "description":"",
+        "price":"(60oz.) 23.95"      
+    }
+],
+"coolers and liquor":[
+    {
+        "name":"Smirnoff Ice",
+        "description":"",
+        "price":"7.00"  
+    },
+    {
+        "name":"Bar Rail",
+        "description":"Rye, Rum, Vodka, Gin or Scotch",
+        "price":[
+            "(1oz.) - 6.50",
+            "(2oz.) - 12.50"
+        ] 
+    },
+    {
+        "name":"Premium",
+        "description":"Amaretto, Kahlua, Creme de Cacao, Southern Comfort, Jim Beam, Tia Maria, Jack Daniels, Baileys, Tequila",
+        "price":[
+            "(1oz.) - 7.50",
+            "(2oz.) - 14.50"
+        ] 
+    }
+],
+"house wine":[
+    {
+        "name" : "*Pricing for House:",
+        "price": [
+            "Glass - 6.50",
+            "1/2 L - 14.50",
+            "1L - 24.95"
+        ]
+    },
+    {
+        "name": [
+            "Jackson Triggs Black Reserve",
+            "Cabaret Franc / Cabaret Sauvignon (Niagara)"
+        ],
+        "description" : "Deep garnet colour; complex aromas of cassis, cedar and spices. Dry palate with medium to full body and full flavor on the finish"
+    },
+    {
+        "name": "Jackson Triggs Black Reserve Chardonnay (Niagara)",
+        "description" : "Pale straw; melon, apple and light oak aromas with a crisp, clean flavor"
+    },
+    {
+        "name": "Mezzomondo Pinot Grigio / Chardonnay (Italy)",
+        "description" : "Clear pale straw; melon, light citrus aromas with dry, medium body and crisp citrus flavours"
+    },
+    {
+        "name": "Mezzomondo Negroamaro (Italy)",
+        "description" : "Deep ruby-red colour; cherry. Smooth texture with ripe cherry, plum and woody flavours; Ion, cherry finish"
+    },
+    {
+        "name": "Apelia Red (Greece)",
+        "description" : "Bright purple/red colour; black cherry, vinous, peppery aromas. Young fresh fruit flavour; well balanced with soft tannin, medium body and finish"
+    },
+    {
+        "name": "Apelia White (Greece)",
+        "description" : "Light lemon yellow colour; clean soft fruit aroma with a fresh light lemon flavour; crispy, dry finish"
+    }
+],
+"red wine":[
+    {
+        "name": [
+            "Inniskillin Niagara Series",
+            "Meriot / Cabernet Sauvignon (Niagara)"
+        ],
+        "description" : "Medium deep ruby; aromas and flavours of oak, cassis, plum, blackberry jam, vanilla and cedar. Dry, medium bodied, with good depth of fruit, structured tannins and good length",
+        "price": "23.95"
+    },
+    {
+        "name":"Jackson Triggs Black Reserve Merlot (Niagara)",
+        "description":"Medium ruby red colour; aromas and flavours of cassis, cherry and herb with light oak notes; dry, medium bodied, medium tannin and good acidity on finish",
+        "price":"22.95"      
+    },
+    {
+        "name":"Marcus James Malbec (Argentina)",
+        "description":"Medium deep ruby red/garnet; aromas and flavours of ripe black berry, currant, plum, cherry and coffee notes; Dry, medium bodied, with soft tannins; medium long finish, warm and spicy notes; easy drinking style",
+        "price":"22.95"      
+    },
+    {
+        "name":"Hardy's VR Shiraz (Australia)",
+        "description":"Deep red, bright cherry with raspberry, spice and vanilla aromas, dark cherry, spice and plums on the palate",
+        "price":"20.95"      
+    }
+],
+"rosé":[
+    {
+        "name": [
+            "Woodbridge by Robert Mondavi",
+            "White Zinfandel (California)"
+        ],
+        "description":"Pale pink colour; fresh berry aroma and flavour; soft off-dry finish",
+        "price":"23.95"      
+    }
+],
+"white wine":[
+    {
+        "name":"Flourish Chardonnay / Viognier (Niagara)",
+        "description":"Brilliant straw yellow with green highlights; floral green apple with touch of honey; dry, medium body; lively flavours of peach and apricot with hint of spicy oak",
+        "price":"23.95"      
+    },
+    {
+        "name":"Open Riesling / Gewurztraminer (Niagara)",
+        "description":"Clear, pale straw colour; floral, peach and hints of lychee; off-dry fruit flavours with crisp citrus finish",
+        "price":"23.95"      
+    },
+    {
+        "name":[
+            "Jackson Triggs Black Reserve",
+            "Sauvignon Blanc (Niagara)"
+        ],
+        "description":"Pale straw colour; grapefruit, herbs and gooseberyy on the nose; light, dry, refreshing acidity and long lemony finish",
+        "price":"22.95"      
+    },
+    {
+        "name":"Hardy's VR Chardonnay (Australia)",
+        "description":"Bright straw, tropical and stone fruit of peaches, melon and pineapple",
+        "price":"20.95"      
     }
 ]
 

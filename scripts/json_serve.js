@@ -18,7 +18,14 @@ async function serveCategory(menuTag, objCategory) {
         let description = document.createElement("div");
         let price = document.createElement("div");
 
-        name.textContent = obj[objCategory][i].name
+        name.textContent = obj[objCategory][i].name;
+        if (Array.isArray(obj[objCategory][i].name)) {
+            name.textContent = ''
+            for (let j = 0; j < obj[objCategory][i].name.length; j++){
+                name.textContent += obj[objCategory][i].name[j] + '\n'
+            }
+            name.style.whiteSpace = 'pre-line';
+        }
         description.textContent = obj[objCategory][i].description
         if (Array.isArray(obj[objCategory][i].description)) {
             description.textContent = ''
@@ -50,12 +57,14 @@ function clearContext(){
     menu3 = document.getElementById("menu-3");
     menu4 = document.getElementById("menu-4");
     menu5 = document.getElementById("menu-5");
+    menu6 = document.getElementById("menu-6");
 
     menu1.textContent = '';
     menu2.textContent = '';
     menu3.textContent = '';
     menu4.textContent = '';
     menu5.textContent = '';
+    menu6.textContent = '';
 }
 
 async function serveCategoryWithTitle(menuTag, titleField, objCategory){

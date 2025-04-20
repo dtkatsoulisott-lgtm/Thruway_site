@@ -2,8 +2,6 @@
     border: 0.5vw outset blue;
     background-color: black;
     color: white;
-    /* content: Example image; */
-    /* display: grid; */
     justify-self: center;
 }
 
@@ -15,7 +13,6 @@
     padding: 15px 30px;
     background-color: rgba(00,64,35);
     transition: background-color 0.2s ease;
-    /* border: 2px solid black; */
     border-radius: 5px;
 }
 

@@ -28,40 +28,60 @@
             </div>   
         </ul>
 
-        <!-- MENU OPTIONS -->
+        <!-- MENU OPTIONS: [ DIV NAME | TITLE | JSON OBJECT ] -->
         <div class="menu-button-list">
+            <!-- FOOD -->
             <button class="menu-button" onclick="
                 clearContext();
                 serveCategoryWithTitle('menu-1', 'appies', 'appetizers'); 
-            ">load appetizers</button>
+            ">Appies</button>
             <button class="menu-button" onclick="
                 clearContext();
                 serveCategoryWithTitle('menu-1', 'soups', 'soups and salads'); 
-            ">load soups n salads</button>
+            ">Soup and Salad</button>
             <button class="menu-button" onclick="
                 clearContext();
                 serveCategoryWithTitle('menu-1', 'sandwiches', 'sandwiches'); 
                 serveCategoryWithTitle('menu-2', 'triple deckers', 'triple deckers'); 
                 serveCategoryWithTitle('menu-3', 'wraps', 'wraps'); 
-            ">Sandwiches and Wraps</button>
+            ">Handhelds</button>
+            <button class="menu-button" onclick="
+                clearContext();
+                serveCategoryWithTitle('menu-1', 'Burgers', 'burgers'); 
+            ">Burgers</button>
             <button class="menu-button" onclick="
                 clearContext();
                 serveCategoryWithTitle('menu-1', 'Pasta Dishes', 'pasta'); 
-            ">Pasta Dishes</button>
+            ">Pasta</button>
             <button class="menu-button" onclick="
                 clearContext();
                 serveCategoryWithTitle('menu-1', 'Pizza', 'pizza'); 
             ">Pizza</button>
+            <!-- DRINKS -->
+            <button class="menu-button" onclick="
+                clearContext();
+                serveCategoryWithTitle('menu-1', 'House Wine', 'house wine');
+                serveCategoryWithTitle('menu-2', 'White Wine', 'white wine');
+                serveCategoryWithTitle('menu-3', 'Red Wine', 'red wine'); 
+                serveCategoryWithTitle('menu-4', 'Rosé', 'rosé');
+                serveCategoryWithTitle('menu-5', 'Beer', 'beer');
+                serveCategoryWithTitle('menu-6', 'Liquor', 'coolers and liquor');
+            ">Drinks</button>
+            <button class="menu-button" onclick="
+                clearContext();
+                serveCategoryWithTitle('menu-1', 'House Wine', 'house wine');
+            ">Beverages</button>
+
         </div>
         
-        <!-- MENU -->
-        <span></span>
+        <!-- MENU DIVS -->
         <div id="menu-panel">
             <div id="menu-1" class="menu"></div>
             <div id="menu-2" class="menu"></div>
             <div id="menu-3" class="menu"></div>
             <div id="menu-4" class="menu"></div>
             <div id="menu-5" class="menu"></div>
+            <div id="menu-6" class="menu"></div>
         </div>
 
         <!-- SCRIPTS TO LOAD AFTER DOM IS LOADED -->
