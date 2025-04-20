@@ -57,6 +57,10 @@
                 clearContext();
                 serveCategoryWithTitle('menu-1', 'Pizza', 'pizza'); 
             ">Pizza</button>
+            <button class="menu-button" onclick="
+                clearContext();
+                serveCategoryWithTitle('menu-1', 'Kid\'s Menu', 'kid\'s menu'); 
+            ">Kid's Menu</button>
             <!-- DRINKS -->
             <button class="menu-button" onclick="
                 clearContext();
@@ -66,10 +70,12 @@
                 serveCategoryWithTitle('menu-4', 'Rosé', 'rosé');
                 serveCategoryWithTitle('menu-5', 'Beer', 'beer');
                 serveCategoryWithTitle('menu-6', 'Liquor', 'coolers and liquor');
+                serveCategoryWithTitle('menu-7', 'Coffee', 'specialty coffee');
             ">Drinks</button>
             <button class="menu-button" onclick="
                 clearContext();
-                serveCategoryWithTitle('menu-1', 'House Wine', 'house wine');
+                serveCategoryWithTitle('menu-1', 'Beverages', 'beverages');
+                serveCategoryWithTitle('menu-2', 'Coffee and Tea', 'coffee and tea');
             ">Beverages</button>
 
         </div>
@@ -82,6 +88,7 @@
             <div id="menu-4" class="menu"></div>
             <div id="menu-5" class="menu"></div>
             <div id="menu-6" class="menu"></div>
+            <div id="menu-7" class="menu"></div>
         </div>
 
         <!-- SCRIPTS TO LOAD AFTER DOM IS LOADED -->

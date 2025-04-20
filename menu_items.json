@@ -5,12 +5,6 @@
 ],
 
 "---------------------------------------------------- FOOD":[],
-"breakfast": [
-    {
-        "type": 1111,
-        "name": ""
-    }
-],
 "appetizers":[
     {
         "name": "Stuffed Jalapeño Poppers",
@@ -186,6 +180,69 @@
         "price":"24.95"
     }
 ],
+"desserts":[
+    {
+        "name":"Ultimate Chocolate Brownie",
+        "description":"A warm melt-in-your-mouth chocolate brownie, finished with French vanilla ice cream, whipped cream, walnuts and warm chocolate sauce",
+        "price":"8.50"
+    },
+    {
+        "name":"Brownie Chocolate Cheesecake",
+        "description":"Rich walnut brownie base baked with a creamy vanilla cheesecake. Adorned with dark chocolate ganache, brownies and buttery caramel. (Contains nuts)",
+        "price":"7.95"
+    },
+    {
+        "name":"Raspberry Greek Yogurt Cheesecake",
+        "description":"A beautiful blend of Greek yogurt cheesecake flowing with raspberry puree and filled with chunks of the most delightful raspberry cake",
+        "price":"7.50"
+    },
+    {
+        "name":"Cheesecake",
+        "description":"A smooth and creamy classic, slowly baked on a home-made crust. Served with blueberry, raspberry or strawberry sauce",
+        "price":"6.95"
+    },
+    {
+        "name":"The Best Chocolate Cake",
+        "description":"A moist delicious chocolate cake for any celebration. Served with whipped cream and chocolate sauce",
+        "price":"6.95"
+    },
+    {
+        "name":"Apple Pie",
+        "description":"À la mode 1.25 extra",
+        "price":"4.95"
+    },
+    {
+        "name":"Tommy's Famous Cream Pie",
+        "description":"Coconut, Banana or Butter Scotch",
+        "price":"5.95"
+    },
+    {
+        "name":"Black Forest Cake",
+        "price":"5.50"
+    },
+    {
+        "name":"Baklava",
+        "description":"(With Almonds)",
+        "price":"5.95"
+    },
+    {
+        "name":"Banana Split",
+        "price":"8.95"
+    },
+    {
+        "name":"Ice Cream Sundae",
+        "price":"6.95"
+    },
+    {
+        "name":"Small Ice Cream",
+        "price":"4.50"
+    },
+    {
+        "name":"Rice Pudding",
+        "price":"3.95"
+    }
+
+],
 "greek dishes":[
     {
         "name": "Pork Souvlaki Platter",
@@ -201,6 +258,52 @@
         "name": "Souvlaki Combo",
         "description" : "Two marinated skewers (one pork and one chicken) served on a bed of rice with Greek salad and roasted potatoes",
         "price": "20.95"
+    }
+],
+"kid's menu":[
+    {
+        "name":"*FOR CHILDREN UNDER 10*",
+        "description":"Kid's meals include milk, chocolate milk or soft drink"
+    },
+    {
+        "name":"Chicken Fingers",
+        "description":"Two pieces with fries",
+        "price":"8.95"
+    },
+    {
+        "name":"Spaghetti",
+        "description":"Meat sauce on the side",
+        "price":"8.95"
+    },
+    {
+        "name":"Fish & Chips",
+        "description":"One piece with fries",
+        "price":"8.95"
+    },
+    {
+        "name":"Pogo",
+        "description":"One Pogo with fries",
+        "price":"8.95"
+    },
+    {
+        "name":"Hamburger",
+        "description":"Served with fries",
+        "price":"8.95"
+    },
+    {
+        "name":"Grilled Cheese",
+        "description":"Served with fries",
+        "price":"8.95"
+    },
+    {
+        "name":"Ham Cold Plate",
+        "description":"Slices of ham, cucumber and fries",
+        "price":"8.95"
+    },
+    {
+        "name":"Turkey Cold Plate",
+        "description":"Slices of turkey, cucumber and fries",
+        "price":"8.95"
     }
 ],
 "pasta":[
@@ -756,6 +859,76 @@
         "price":"(60oz.) 23.95"      
     }
 ],
+"beverages":[
+    {
+        "name":"Soft Drinks",
+        "description":"(Coke, Diet Coke, Sprite, Ginger Ale, Soda Water)",
+        "price":"3.25"      
+    },
+    {
+        "name":"Nestle's Iced Tea",
+        "price":"3.50"      
+    },
+    {
+        "name":"Milk",
+        "price":[
+            "Sm. - 2.99",
+            "Lr. - 3.50"
+        ]      
+    },
+    {
+        "name":"Chocolate Milk",
+        "price":[
+            "Sm. - 2.99",
+            "Lr. - 3.50"
+        ]      
+    },
+    {
+        "name":"Juice",
+        "description":"(Tomato, Apple, Orange)",
+        "price":[
+            "Sm. - 2.99",
+            "Lr. - 3.50"
+        ]      
+    },
+    {
+        "name":"Milk Shake",
+        "description":"(Chocolate, Strawberry, Vanilla)",
+        "price":"5.95"      
+    }
+],
+"coffee and tea":[
+    {
+        "name":"Coffee",
+        "price":"2.50"      
+    },
+    {
+        "name":"Greek Coffee",
+        "price":"3.00"      
+    },
+    {
+        "name":"Tea",
+        "price":"2.50"      
+    },
+    {
+        "name":"Specialty Tea",
+        "description":"(Earl Grey, Green Tea)",
+        "price":"2.75"      
+    },
+    {
+        "name":"Caffeine Free Tea",
+        "description":"(Camomile, Mint, Raspberry)",
+        "price":"2.75"      
+    },
+    {
+        "name":"Hot Water",
+        "price":"1.00"      
+    },
+    {
+        "name":"Hot Chocloate",
+        "price":"2.95"      
+    }
+],
 "coolers and liquor":[
     {
         "name":"Smirnoff Ice",
@@ -781,7 +954,7 @@
 ],
 "house wine":[
     {
-        "name" : "*Pricing for House:",
+        "name" : "*Pricing for House Wine:",
         "price": [
             "Glass - 6.50",
             "1/2 L - 14.50",
@@ -851,6 +1024,38 @@
         "price":"23.95"      
     }
 ],
+"specialty coffee":[
+    {
+        "name":"Irish Coffee",
+        "description":"Irish Whiskey, Kahlua",
+        "price":"7.95"
+    },
+    {
+        "name":"Spanish Coffee",
+        "description":"Brandy, Kahlua",
+        "price":"7.95"
+    },
+    {
+        "name":"Jamaican Coffee",
+        "description":"Dark Rum, Tia Maria",
+        "price":"7.95"
+    },
+    {
+        "name":"Cafe Amaretto",
+        "description":"Amaretto, Kahlua",
+        "price":"7.95"
+    },
+    {
+        "name":"Coffee Supreme",
+        "description":"Brandy, Triple Sec, Kahlua",
+        "price":"7.95"
+    },
+    {
+        "name":"Mexican Coffee",
+        "description":"Irish Whiskey, Kahlua",
+        "price":"7.95"
+    }
+],
 "white wine":[
     {
         "name":"Flourish Chardonnay / Viognier (Niagara)",
@@ -875,6 +1080,119 @@
         "description":"Bright straw, tropical and stone fruit of peaches, melon and pineapple",
         "price":"20.95"      
     }
+],
+"---------------------------------------------------- SIDE ORDERS":[],
+"other":[
+    {
+        "name":"Toast",
+        "description":"(White or Whole Wheat)",
+        "price":"3.50"
+    },
+    {
+        "name":"Rye Toast",
+        "price":"3.50"
+    },
+    {
+        "name":"English Muffin",
+        "price":"4.25"
+    },
+    {
+        "name":"Peameal Sandwich",
+        "price":"11.95"
+    },
+    {
+        "name":"Breakfast Poutine",
+        "price":"13.95"
+    }
+],
+"extras":[
+    {
+        "name":"Mozza or Feta Cheese",
+        "price":"4.25"
+    },
+    {
+        "name":"Tomatoes",
+        "price":"2.95"
+    },
+    {
+        "name":"Onions",
+        "price":"2.95"
+    },
+    {
+        "name":"Spinach",
+        "price":"2.95"
+    },
+    {
+        "name":"Green Peppers",
+        "price":"2.95"
+    },
+    {
+        "name":"Hot Peppers",
+        "price":"2.95"
+    },
+    {
+        "name":"Mushrooms",
+        "price":"2.95"
+    }
+],
+"side orders":[
+    {
+        "name":"Hollandaise Sauce",
+        "price":"3.95"
+    },
+    {
+        "name":"Cheese",
+        "description":"(2 Slices)",
+        "price":"3.00"
+    },
+    {
+        "name":"Bacon",
+        "description":"(3 Slides)",
+        "price":"4.75"
+    },
+    {
+        "name":"Ham",
+        "description":"(1 Slice)",
+        "price":"3.75"
+    },
+    {
+        "name":"Sausages",
+        "description":"(3 Pieces)",
+        "price":"4.75"
+    },
+    {
+        "name":"Peameal",
+        "description":"(3 Slices)",
+        "price":"5.95"
+    },
+    {
+        "name":"Tomatoes",
+        "description":"(3 Slices)",
+        "price":"2.95"
+    },
+    {
+        "name":"Raspberry Sauce",
+        "price":"3.75"
+    },
+    {
+        "name":"Blueberry Sauce",
+        "price":"3.75"
+    },
+    {
+        "name":"Strawberry Sauce",
+        "price":"3.75"
+    },
+    {
+        "name":"Home Fries",
+        "price":"8.50"
+    },
+    {
+        "name":"Extra Jam or Peanut Butter",
+        "price":"0.40"
+    },
+    {
+        "name":"Onions on Home Fries",
+        "price":"2.95"
+    }
 ]
-
 }

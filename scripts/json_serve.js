@@ -58,6 +58,7 @@ function clearContext(){
     menu4 = document.getElementById("menu-4");
     menu5 = document.getElementById("menu-5");
     menu6 = document.getElementById("menu-6");
+    menu7 = document.getElementById("menu-7");
 
     menu1.textContent = '';
     menu2.textContent = '';
@@ -65,6 +66,7 @@ function clearContext(){
     menu4.textContent = '';
     menu5.textContent = '';
     menu6.textContent = '';
+    menu7.textContent = '';
 }
 
 async function serveCategoryWithTitle(menuTag, titleField, objCategory){
