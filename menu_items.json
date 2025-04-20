@@ -1,7 +1,42 @@
-{
-"crtl+f to find these menu categories":[
+{"crtl+f to find these menu categories":[
     "appetizers",
-    "breakfast"
+    "beers",
+    "beverages",
+    "breakfast",
+    "breakfast classics",
+    "breakfast wraps",
+    "burgers",
+    "chicken and ribs",
+    "coffee and tea",
+    "coolers and liquor",
+    "desserts",
+    "extras",
+    "french toast",
+    "greek dishes",
+    "house wine",
+    "kid's menu",
+    "meat orders",
+    "omelettes",
+    "other",
+    "pancakes",
+    "pasta",
+    "pizza",
+    "poutine",
+    "red wine",
+    "rosé",
+    "sandwiches",
+    "seafood",
+    "senior's menu",
+    "side orders",
+    "soups and salads",
+    "specialty coffee",
+    "steaks",
+    "stir fry",
+    "traditional favourites",
+    "triple deckers",
+    "waffles",
+    "white wine",
+    "wraps"
 ],
 
 "---------------------------------------------------- FOOD":[],
@@ -78,6 +113,115 @@
     {
         "name": "Sweet Potato Fries",
         "price": "10.95"
+    }
+],
+"breakfast":[
+    {
+        "description" : [
+            "Served with fresh seasonal fruit, toast and home fries",
+            "Poached Eggs 1.00 Extra",
+            "Rye Toast or English Muffin 1.00 Extra"
+        ]
+    },
+    {
+        "name": "1. Ham and Two Eggs",
+        "description" : "Golden fried peppers stuffed with a creamy cheese and hot jalapeños",
+        "price": "10.95"
+    },
+    {
+        "name": "2. Bacon and Two Eggs",
+        "price": "10.95"
+    },
+    {
+        "name": "3. Egg Cheese Muffin",
+        "description":"With bacon, sausage or ham and home fries",
+        "price": "10.95"
+    },
+    {
+        "name": "4. Bacon and One Egg",
+        "price": "10.25"
+    },
+    {
+        "name": "5. Ham and One Egg",
+        "price": "10.25"
+    },
+    {
+        "name": "6. Two Fried Eggs",
+        "price": "9.95"
+    },
+    {
+        "name": "7. Sausages and Two Eggs",
+        "price": "10.95"
+    },
+    {
+        "name": "8. Sausages and One Egg",
+        "price": "10.25"
+    },
+    {
+        "name": "9. One Egg",
+        "price": "8.55"
+    },
+    {
+        "name": "10. Steak and Two Eggs",
+        "price": "21.95"
+    },
+    {
+        "name": "11. Peameal Bacon and Two Eggs",
+        "price": "14.95"
+    },
+    {
+        "name": "12. Peameal Bacon and One Egg",
+        "price": "13.95"
+    }
+],
+"breakfast classics":[
+    {
+        "name":"19. Thruway Special",
+        "description":"Two eggs, three slices of bacon, two sausages, one slice of ham, home fries and toast",
+        "price":"15.95"
+    },
+    {
+        "name":"20. Take Two",
+        "description":[
+            "Two eggs, two pancakes, two slices of bacon, two sausages and home fries",
+            "French Toast Instead of Pancakes 4.75"
+        ],
+        "price":"15.95"
+    },
+    {
+        "name":"21. Thruway Classic",
+        "description":"Two eggs, one pancake, your choice of bacon, sausages, or ham. Home fries and toast",
+        "price":"14.95"
+    },
+    {
+        "name":"22. Eggs Benedict",
+        "description":"Two poached eggs with ham or spinach on an English muffin, with hollandaise sauce and home fries",
+        "price":"15.95"
+    },
+    {
+        "name":"23. Thruway Supreme Poutine",
+        "description":"Sausage, mozzarella cheese, scrambled eggs, tomatoes and bacon bits all topped with our delicous hollandaise sauce",
+        "price":"18.50"
+    }
+],
+"breakfast wraps":[
+    {
+        "description":"Wraps served with home fries"
+    },
+    {
+        "name":"Breakfast Wrap",
+        "description":"(Scrambled eggs and cheese with bacon, ham or sausage)",
+        "price":"13.95"
+    },
+    {
+        "name":"Spinach Wrap",
+        "description":"(Scrambled eggs, spinach, mozza cheese and home fries)",
+        "price":"13.95"
+    },
+    {
+        "name":"Tex Mex Wrap",
+        "description":"(Scrambled eggs, salsa, sausage, jack cheese and home fries)",
+        "price":"14.95"
     }
 ],
 "burgers":[
@@ -243,6 +387,26 @@
     }
 
 ],
+"french toast":[
+    {
+        "name":"French Toast with Syrup",
+        "price":"12.95"
+    },
+    {
+        "name":"French Toast",
+        "description":"with choice of blueberry, raspberry or strawberry sauce",
+        "price":"14.95"
+    },
+    {
+        "name":"French Toast Supreme",
+        "description":"with ice cream, apple filling, cinnamon, whipped cream and choice of blueberry, raspberry, strawberry or chocolate sauce",
+        "price":"16.95"
+    },
+    {
+        "name":"Single French Toast",
+        "price":"5.95"
+    }
+],
 "greek dishes":[
     {
         "name": "Pork Souvlaki Platter",
@@ -304,6 +468,108 @@
         "name":"Turkey Cold Plate",
         "description":"Slices of turkey, cucumber and fries",
         "price":"8.95"
+    }
+],
+"meat orders":[
+    {
+        "description":"Served with toast and home fries"
+    },
+    {
+        "name":"Ham",
+        "price":"10.95"
+    },
+    {
+        "name":"Bacon",
+        "price":"11.95"
+    },
+    {
+        "name":"Sausage",
+        "price":"11.95"
+    },
+    {
+        "name":"Peameal Bacon",
+        "price":"14.95"
+    }
+],
+"omelettes":[
+    {
+        "description":"Served with toast and home fries"
+    },
+    {
+        "name":"13. Plain Omelette",
+        "price":"11.95"
+    },
+    {
+        "name":"14. Cheese Omelette",
+        "price":"13.95"
+    },
+    {
+        "name":"15. Ham Omelette",
+        "price":"14.95"
+    },
+    {
+        "name":"16. Bacon Omelette",
+        "price":"15.95"
+    },
+    {
+        "name":"17. Western Omelette",
+        "price":"15.95"
+    },
+    {
+        "name":"18. Mushroom Omelette",
+        "price":"15.95"
+    },
+    {
+        "name":"Sausage Omelette",
+        "price":"15.95"
+    },
+    {
+        "name":"Vegetarian Omelette",
+        "description":"(Tomatoes, Onions, Green Peppers and Mushrooms)",
+        "price":"15.95"
+    },
+    {
+        "name":"Greek Omelette",
+        "description":"(Sausages, Onions, Tomatoes an Feta)",
+        "price":"16.95"
+    },
+    {
+        "name":"Spinach & Feta Omelette",
+        "price":"15.95"
+    }
+],
+"pancakes and waffles":[
+    {
+        "name":"Pancakes with Syrup",
+        "price":"12.95"
+    },
+    {
+        "name":"Pancakes",
+        "description":"with choice of blueberry, raspberry or strawberry sauce",
+        "price":"14.95"
+    },
+    {
+        "name":"Pancakes Supreme",
+        "description":"with ice cream, apple filling, cinnamon, whipped cream and choice of blueberry, raspberry, strawberry or chocolate sauce",
+        "price":"16.95"
+    },
+    {
+        "name":"Single Pancake",
+        "price":"5.95"
+    },
+    {
+        "name":"Waffle with Syrup",
+        "price":"12.95"
+    },
+    {
+        "name":"Waffle",
+        "description":"with choice of blueberry, raspberry or strawberry sauce",
+        "price":"14.95"
+    },
+    {
+        "name":"Waffle Supreme",
+        "description":"with ice cream, apple filling, cinnamon, whipped cream and choice of blueberry, raspberry, strawberry or chocolate sauce",
+        "price":"16.95"
     }
 ],
 "pasta":[
@@ -826,7 +1092,7 @@
         "price": "17.95"
     }
 ],
-"----------------------------------------------------DRINKS":"----------------------------------------------------",
+"----------------------------------------------------DRINKS":[],
 "beer":[
     {
         "name":"Domestic - Bottle",
@@ -1194,5 +1460,4 @@
         "name":"Onions on Home Fries",
         "price":"2.95"
     }
-]
-}
+]}
