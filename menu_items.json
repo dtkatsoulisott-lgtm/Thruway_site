@@ -1,4 +1,5 @@
-{"crtl+f to find these menu categories":[
+{
+    "crtl+f to find these menu categories":[
     "appetizers",
     "beers",
     "beverages",
@@ -847,7 +848,7 @@
         "price":"15.95"
     },
     {
-        "name":"Single Pork Souvlaki Platter",
+        "name":"Fish & Chips",
         "description":"Lightly battered English style Pollock. Served with coleslaw, tartar sauce and fries",
         "price":"1Pc. 15.95"
     }
