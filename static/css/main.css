@@ -5,6 +5,17 @@
     justify-self: center;
 }
 
+.bg-parallax{
+    position: fixed;
+    width: 100%;
+    background-color: black;
+}
+
+.fg-parallax{
+    position: absolute;
+    background-color: white;
+}
+
 .button{
     font-weight: 700;
     font-size: 25px;

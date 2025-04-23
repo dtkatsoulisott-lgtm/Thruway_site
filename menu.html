@@ -1,125 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- MONTSERRRAT -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        
-        <!-- SCRIPTS AND STYLES -->
-        <script src="scripts/json_serve.js"></script>
+    <!-- MONTSERRRAT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <!-- SCRIPTS AND STYLES -->
+    <script src="scripts/json_serve.js"></script>
 
-        <link rel="stylesheet" href="./static/css/navstyles.css">
-        <link rel="stylesheet" href="./static/css/reset.css">
-        <link rel="stylesheet" href="./static/css/menuStyles.css">
+    <link rel="stylesheet" href="./static/css/navstyles.css">
+    <link rel="stylesheet" href="./static/css/reset.css">
+    <link rel="stylesheet" href="./static/css/menuStyles.css">
+    <link rel="stylesheet" href="./static/css/main.css">
 
-        <title>Thruway Restaurant Menu</title>
-    </head>
-    <body>
-        <!-- NAVBAR -->
-        <ul id="nav" class="header" style="border: 50px  red">
-            <a href="index.html"><img src="static/images/Logo.webp" id="logo" class="logo"></a>
-            <div class="header-list">
-                <li><a href="menu.html">Our Menu</a></li>
-                <li><a href="https://order.valleyeats.ca/carletonplace/thruway-restaurant/#">Take-out</a></li>
-                <li><a href="tel:(613)-257-5326">Phone</a></li>
-            </div>   
+    <title>Thruway Restaurant Menu</title>
+</head>
+<body>
+<!-- NAVBAR -->
+<ul id="nav" class="header" style="border: 50px  red">
+    <a href="index.html"><img src="static/images/Logo.webp" id="logo" class="logo"></a>
+    <div class="header-list">
+        <li><a href="menu.html">Our Menu</a></li>
+        <li><a href="https://order.valleyeats.ca/carletonplace/thruway-restaurant/#">Take-out</a></li>
+        <li><a href="tel:(613)-257-5326">Phone</a></li>
+    </div>   
+</ul>
+
+<div class="bg-parallax">
+    <!-- MENU OPTIONS: [ DIV NAME | TITLE | JSON OBJECT ] -->
+    <div class="menu-button-list">
+        <!-- FOOD -->
+        <button class="menu-button" onclick="
+            clearContext();
+            serveCategoryWithTitle('menu-1', 'Breakfast', 'breakfast'); 
+            serveCategoryWithTitle('menu-2', 'Omelettes', 'omelettes'); 
+            serveCategoryWithTitle('menu-3', 'Classics', 'breakfast classics'); 
+            serveCategoryWithTitle('menu-4', 'Pancakes & Waffles', 'pancakes and waffles'); 
+            serveCategoryWithTitle('menu-5', 'French Toast', 'french toast'); 
+            serveCategoryWithTitle('menu-6', 'Wraps', 'breakfast wraps'); 
+            serveCategoryWithTitle('menu-7', 'Meat Orders', 'meat orders'); 
+        ">Breakfast</button>
+        <button class="menu-button" onclick="
+            clearContext();
+            serveCategoryWithTitle('menu-1', 'Appetizers', 'appetizers'); 
+            serveCategoryWithTitle('menu-2', 'Soups & Salads', 'soups and salads'); 
+        ">Sides</button>
+        <button class="menu-button" onclick="
+            clearContext();
+            serveCategoryWithTitle('menu-1', 'Greek Dishes', 'greek dishes'); 
+            serveCategoryWithTitle('menu-2', 'Stir Fry', 'stir fry'); 
+        ">Greek & Stir Fry</button>
+        <button class="menu-button" onclick="
+            clearContext();
+            serveCategoryWithTitle('menu-1', 'Sandwiches', 'sandwiches'); 
+            serveCategoryWithTitle('menu-2', 'Triple Deckers', 'triple deckers'); 
+            serveCategoryWithTitle('menu-3', 'Wraps', 'wraps'); 
+        ">Handhelds</button>
+        <button class="menu-button" onclick="
+            clearContext();
+            serveCategoryWithTitle('menu-1', 'Burgers', 'burgers'); 
+            serveCategoryWithTitle('menu-2', 'Fries', 'poutine'); 
+        ">Burgers & Fries</button>
+            <button class="menu-button" onclick="
+            clearContext();
+            serveCategoryWithTitle('menu-1', 'Favourites', 'traditional favourites');
+            serveCategoryWithTitle('menu-2', 'Steaks', 'steaks');  
+            serveCategoryWithTitle('menu-3', 'Chicken & Ribs', 'chicken and ribs');  
+            serveCategoryWithTitle('menu-4', 'Seafood', 'seafood');  
+        ">Entrees</button>
+        <button class="menu-button" onclick="
+            clearContext();
+            serveCategoryWithTitle('menu-1', 'Pasta Dishes', 'pasta'); 
+            serveCategoryWithTitle('menu-2', 'Pizza', 'pizza'); 
+        ">Pizza & Pasta</button>
+        <button class="menu-button" onclick="
+            clearContext();
+            serveCategoryWithTitle('menu-1', 'Senior\'s Menu', 'senior\'s menu');
+            serveCategoryWithTitle('menu-2', 'Kid\'s Menu', 'kid\'s menu');
+        ">Kid's & Senior's</button>
+        <!-- DRINKS -->
+        <button class="menu-button" onclick="
+            clearContext();
+            serveCategoryWithTitle('menu-1', 'House Wine', 'house wine');
+            serveCategoryWithTitle('menu-2', 'White Wine', 'white wine');
+            serveCategoryWithTitle('menu-3', 'Red Wine', 'red wine'); 
+            serveCategoryWithTitle('menu-4', 'Rosé', 'rosé');
+            serveCategoryWithTitle('menu-5', 'Beer', 'beer');
+            serveCategoryWithTitle('menu-6', 'Liquor', 'coolers and liquor');
+            serveCategoryWithTitle('menu-7', 'Coffee', 'specialty coffee');
+        ">Drinks</button>
+        <button class="menu-button" onclick="
+            clearContext();
+            serveCategoryWithTitle('menu-1', 'Beverages', 'beverages');
+            serveCategoryWithTitle('menu-2', 'Coffee and Tea', 'coffee and tea');
+        ">Beverages</button>
+        <!-- EXTRAS -->
+        <button class="menu-button" onclick="
+            clearContext();
+            serveCategoryWithTitle('menu-1', 'Extras', 'extras');
+            serveCategoryWithTitle('menu-2', 'Side Orders', 'side orders');
+            serveCategoryWithTitle('menu-3', 'Other', 'other');
+        ">Extras</button>
+        <button class="menu-button" onclick="
+            clearContext();
+            serveCategoryWithTitle('menu-1', 'Dessert', 'desserts');
+        ">Desserts</button>
+    </div>
+    <div style="margin: 5% 15% 0 15%; width: 70%; padding-bottom: 1000px">
+        <a href="menu.html" class="button">Menu</a>
+        <p style="margin: 28px 0; color: aliceblue; font-size: 1.2em; text-shadow: 0 0 5px black">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        </p>
+    </div>
+</div>
+
+
+<!-- FOREGROUND PARALLAX -->
+<div class="fg-parallax" style="width: 100vw; position:absolute; margin-top:55vh; display: grid;">
+    <!-- BANNER -->
+    <div class="banner">
+        <ul>
+            <li>THRUWAY RESTAURANT</li>
+            <li>MENU ITEM</li>
+            <li>TAKE-OUT</li>
+            <li>YUMMY DISH</li>
+            <li>THRUWAY RESTAURANT</li>
+            <li>MENU ITEM</li>
+            <li>TAKE-OUT</li>
+            <li>YUMMY DISH</li>
+            <li>THRUWAY RESTAURANT</li>
+            <li>MENU ITEM</li>
+            <li>TAKE-OUT</li>
+            <li>YUMMY DISH</li>
         </ul>
+        <ul aria-hidden="true">
+            <li>THRUWAY RESTAURANT</li>
+            <li>MENU ITEM</li>
+            <li>TAKE-OUT</li>
+            <li>YUMMY DISH</li>
+            <li>THRUWAY RESTAURANT</li>
+            <li>MENU ITEM</li>
+            <li>TAKE-OUT</li>
+            <li>YUMMY DISH</li>
+            <li>THRUWAY RESTAURANT</li>
+            <li>MENU ITEM</li>
+            <li>TAKE-OUT</li>
+            <li>YUMMY DISH</li>
+            
+        </ul>
+    </div>
 
-        <!-- MENU OPTIONS: [ DIV NAME | TITLE | JSON OBJECT ] -->
-        <div class="menu-button-list">
-            <!-- FOOD -->
-            <button class="menu-button" onclick="
-                clearContext();
-                serveCategoryWithTitle('menu-1', 'Breakfast', 'breakfast'); 
-                serveCategoryWithTitle('menu-2', 'Omelettes', 'omelettes'); 
-                serveCategoryWithTitle('menu-3', 'Classics', 'breakfast classics'); 
-                serveCategoryWithTitle('menu-4', 'Pancakes & Waffles', 'pancakes and waffles'); 
-                serveCategoryWithTitle('menu-5', 'French Toast', 'french toast'); 
-                serveCategoryWithTitle('menu-6', 'Wraps', 'breakfast wraps'); 
-                serveCategoryWithTitle('menu-7', 'Meat Orders', 'meat orders'); 
-            ">Breakfast</button>
-            <button class="menu-button" onclick="
-                clearContext();
-                serveCategoryWithTitle('menu-1', 'Appetizers', 'appetizers'); 
-                serveCategoryWithTitle('menu-2', 'Soups & Salads', 'soups and salads'); 
-            ">Sides</button>
-            <button class="menu-button" onclick="
-                clearContext();
-                serveCategoryWithTitle('menu-1', 'Greek Dishes', 'greek dishes'); 
-                serveCategoryWithTitle('menu-2', 'Stir Fry', 'stir fry'); 
-            ">Greek & Stir Fry</button>
-            <button class="menu-button" onclick="
-                clearContext();
-                serveCategoryWithTitle('menu-1', 'Sandwiches', 'sandwiches'); 
-                serveCategoryWithTitle('menu-2', 'Triple Deckers', 'triple deckers'); 
-                serveCategoryWithTitle('menu-3', 'Wraps', 'wraps'); 
-            ">Handhelds</button>
-            <button class="menu-button" onclick="
-                clearContext();
-                serveCategoryWithTitle('menu-1', 'Burgers', 'burgers'); 
-                serveCategoryWithTitle('menu-2', 'Fries', 'poutine'); 
-            ">Burgers & Fries</button>
-                <button class="menu-button" onclick="
-                clearContext();
-                serveCategoryWithTitle('menu-1', 'Favourites', 'traditional favourites');
-                serveCategoryWithTitle('menu-2', 'Steaks', 'steaks');  
-                serveCategoryWithTitle('menu-3', 'Chicken & Ribs', 'chicken and ribs');  
-                serveCategoryWithTitle('menu-4', 'Seafood', 'seafood');  
-            ">Entrees</button>
-            <button class="menu-button" onclick="
-                clearContext();
-                serveCategoryWithTitle('menu-1', 'Pasta Dishes', 'pasta'); 
-                serveCategoryWithTitle('menu-2', 'Pizza', 'pizza'); 
-            ">Pizza & Pasta</button>
-            <button class="menu-button" onclick="
-                clearContext();
-                serveCategoryWithTitle('menu-1', 'Senior\'s Menu', 'senior\'s menu');
-                serveCategoryWithTitle('menu-2', 'Kid\'s Menu', 'kid\'s menu');
-            ">Kid's & Senior's</button>
-            <!-- DRINKS -->
-            <button class="menu-button" onclick="
-                clearContext();
-                serveCategoryWithTitle('menu-1', 'House Wine', 'house wine');
-                serveCategoryWithTitle('menu-2', 'White Wine', 'white wine');
-                serveCategoryWithTitle('menu-3', 'Red Wine', 'red wine'); 
-                serveCategoryWithTitle('menu-4', 'Rosé', 'rosé');
-                serveCategoryWithTitle('menu-5', 'Beer', 'beer');
-                serveCategoryWithTitle('menu-6', 'Liquor', 'coolers and liquor');
-                serveCategoryWithTitle('menu-7', 'Coffee', 'specialty coffee');
-            ">Drinks</button>
-            <button class="menu-button" onclick="
-                clearContext();
-                serveCategoryWithTitle('menu-1', 'Beverages', 'beverages');
-                serveCategoryWithTitle('menu-2', 'Coffee and Tea', 'coffee and tea');
-            ">Beverages</button>
-            <!-- EXTRAS -->
-            <button class="menu-button" onclick="
-                clearContext();
-                serveCategoryWithTitle('menu-1', 'Extras', 'extras');
-                serveCategoryWithTitle('menu-2', 'Side Orders', 'side orders');
-                serveCategoryWithTitle('menu-3', 'Other', 'other');
-            ">Extras</button>
-            <button class="menu-button" onclick="
-                clearContext();
-                serveCategoryWithTitle('menu-1', 'Dessert', 'desserts');
-            ">Desserts</button>
+    <!-- MENU DIVS -->
+    <div id="menu-panel">
+        <div id="menu-1" class="menu">
+            <p style="color: red; font-size: 50px;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </p>
+            <p style="color: blue; font-size: 50px;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </p>
         </div>
-        
-        <!-- MENU DIVS -->
-        <div id="menu-panel">
-            <div id="menu-1" class="menu"></div>
-            <div id="menu-2" class="menu"></div>
-            <div id="menu-3" class="menu"></div>
-            <div id="menu-4" class="menu"></div>
-            <div id="menu-5" class="menu"></div>
-            <div id="menu-6" class="menu"></div>
-            <div id="menu-7" class="menu"></div>
-        </div>
+        <div id="menu-2" class="menu"></div>
+        <div id="menu-3" class="menu"></div>
+        <div id="menu-4" class="menu"></div>
+        <div id="menu-5" class="menu"></div>
+        <div id="menu-6" class="menu"></div>
+        <div id="menu-7" class="menu"></div>
+    </div>
+</div>
 
-        <!-- SCRIPTS TO LOAD AFTER DOM IS LOADED -->
-        <script src="scripts/nav.js"></script>
-    </body>
+
+
+<!-- SCRIPTS TO LOAD AFTER DOM IS LOADED -->
+<script src="scripts/nav.js"></script>
+</body>
 </html>
