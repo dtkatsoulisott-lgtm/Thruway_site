@@ -15,10 +15,13 @@
     <link rel="stylesheet" href="./static/css/reset.css">
     <link rel="stylesheet" href="./static/css/menuStyles.css">
     <link rel="stylesheet" href="./static/css/main.css">
+    <link rel="stylesheet" href="./static/css/footer.css">
 
     <title>Thruway Restaurant Menu</title>
 </head>
 <body>
+
+
 <!-- NAVBAR -->
 <ul id="nav" class="header" style="border: 50px  red">
     <a href="index.html"><img src="static/images/Logo.webp" id="logo" class="logo"></a>
@@ -29,7 +32,8 @@
     </div>   
 </ul>
 
-<div class="bg-parallax">
+<!-- BG PARALLAX -->
+<div class="bg-parallax" style="padding-top:5vh;">
     <!-- MENU OPTIONS: [ DIV NAME | TITLE | JSON OBJECT ] -->
     <div class="menu-button-list">
         <!-- FOOD -->
@@ -110,7 +114,6 @@
         ">Desserts</button>
     </div>
     <div style="margin: 5% 15% 0 15%; width: 70%; padding-bottom: 1000px">
-        <a href="menu.html" class="button">Menu</a>
         <p style="margin: 28px 0; color: aliceblue; font-size: 1.2em; text-shadow: 0 0 5px black">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
@@ -120,37 +123,32 @@
 
 
 <!-- FOREGROUND PARALLAX -->
-<div class="fg-parallax" style="width: 100vw; position:absolute; margin-top:55vh; display: grid;">
+<div class="fg-parallax" style="width: 100vw; margin-top:70vh; display: grid;">
     <!-- BANNER -->
     <div class="banner">
         <ul>
-            <li>THRUWAY RESTAURANT</li>
-            <li>MENU ITEM</li>
-            <li>TAKE-OUT</li>
-            <li>YUMMY DISH</li>
-            <li>THRUWAY RESTAURANT</li>
-            <li>MENU ITEM</li>
-            <li>TAKE-OUT</li>
-            <li>YUMMY DISH</li>
-            <li>THRUWAY RESTAURANT</li>
-            <li>MENU ITEM</li>
-            <li>TAKE-OUT</li>
-            <li>YUMMY DISH</li>
+            <li>BREAKFAST</li>
+            <li>SIDES</li>
+            <li>GREEK & STIR FRY</li>
+            <li>HANDHELDS</li>
+            <li>BURGERS & FRIES</li>
+            <li>ENTREES</li>
+            <li>PIZZA & PASTA</li>
+            <li>KIDS AND SENIORS</li>
+            <li>DRINKS</li>
+            <li>DESSERTS</li>
         </ul>
         <ul aria-hidden="true">
-            <li>THRUWAY RESTAURANT</li>
-            <li>MENU ITEM</li>
-            <li>TAKE-OUT</li>
-            <li>YUMMY DISH</li>
-            <li>THRUWAY RESTAURANT</li>
-            <li>MENU ITEM</li>
-            <li>TAKE-OUT</li>
-            <li>YUMMY DISH</li>
-            <li>THRUWAY RESTAURANT</li>
-            <li>MENU ITEM</li>
-            <li>TAKE-OUT</li>
-            <li>YUMMY DISH</li>
-            
+            <li>BREAKFAST</li>
+            <li>SIDES</li>
+            <li>GREEK & STIR FRY</li>
+            <li>HANDHELDS</li>
+            <li>BURGERS & FRIES</li>
+            <li>ENTREES</li>
+            <li>PIZZA & PASTA</li>
+            <li>KIDS AND SENIORS</li>
+            <li>DRINKS</li>
+            <li>DESSERTS</li>
         </ul>
     </div>
 
@@ -173,11 +171,29 @@
         <div id="menu-6" class="menu"></div>
         <div id="menu-7" class="menu"></div>
     </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        <div class="footer-top">
+            <a class="link" href="tel:(613)-257-5326">(613)-257-5326</a>
+            <strong>THRUWAY RESTAURANT</strong>
+            <a class="link" href="https://www.google.ca/maps/place/Thruway+Restaurant/@45.1317222,-76.1245907,17z/data=!3m2!4b1!5s0x4cd20ea001400563:0x7bcdd75c5013db46!4m6!3m5!1s0x4cd20e7dce89a1bf:0xbdcb5deb1f45d3c5!8m2!3d45.1317222!4d-76.1220211!16s%2Fg%2F1tgps7mw?entry=ttu&g_ep=EgoyMDI1MDQyMi4wIKXMDSoASAFQAw%3D%3D">10432 Highway 7</a>
+        </div>
+        <div class="footer-bottom">
+            <img src="static/images/Logo.webp" class="footer-logo">
+            <div><span>Copyright © <span id="year"></span> Thruway Restaurant - All Rights Reserved</span></div>
+        </div>
+    </div>
 </div>
 
 
 
 <!-- SCRIPTS TO LOAD AFTER DOM IS LOADED -->
+<script>
+    let date = new Date();
+    let year = date.getFullYear();
+    document.getElementById('year').innerHTML = year;
+</script>
 <script src="scripts/nav.js"></script>
 </body>
 </html>

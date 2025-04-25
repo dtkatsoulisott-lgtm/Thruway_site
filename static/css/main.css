@@ -5,15 +5,26 @@
     justify-self: center;
 }
 
+.link{
+    color: rgb(0, 158, 87);
+    font-weight: 700;
+}
+
+.link:hover{
+    color: rgb(0, 105, 56);
+}
+
 .bg-parallax{
     position: fixed;
     width: 100%;
     background-color: black;
+    z-index: 1;
 }
 
 .fg-parallax{
-    position: absolute;
+    position: relative;
     background-color: white;
+    z-index:10;
 }
 
 .button{
