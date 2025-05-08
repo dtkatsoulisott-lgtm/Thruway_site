@@ -1,7 +1,7 @@
 .header{
     padding: 0 12.5%;
     width:75%;
-    height:75px;
+    height:100px;
     z-index:1000;
     position:fixed;
     display:flex;
@@ -13,7 +13,7 @@
     transition: height 0.5s ease, background-color 0.5s ease;
 }
 .header.collapse {
-    height:50px;
+    height:60px;
     background-color: rgba(35, 100, 50, 0.35);
 }
 

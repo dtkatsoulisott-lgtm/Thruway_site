@@ -1,15 +1,16 @@
 .footer{
-    margin-top: 20vh;
+    margin-top: 10vh;
     padding: 0 15%;
     height: 175px;
     background-color: rgb(10, 10, 10);
-    border-block: 2px solid rgba(222,222,222);
+    border-block: 5px solid rgba(222,222,222);
 }
 
 .footer-top{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     padding-top: 3vh;
-    display:flex;
-    justify-content: space-between;
+    text-align: center;
 }
 
 .footer-bottom{

@@ -3,13 +3,11 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     width: 70%;
-    margin: 0 15% 0% 15%;
+    margin: 1vh 15% 0% 15%;
 }
 
 #menu-panel{
     background-color: #fffdfe;
-    display: grid;
-    gap: 2%;
     /* margin-bottom: 50vh; */
     padding-top: 15vh;
     min-height:auto;
