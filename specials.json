@@ -1,0 +1,74 @@
+{
+"specials":[
+    {
+        "name": "Breakfast Family Pack",
+        "description" : "Pancakes, eggs, home fries, sausage bacon and ham.",
+        "price": "49.95"
+    },
+    {
+        "name": "French Toast Breakfast Family Pack",
+        "description" : "French Toast, eggs, home fries, sausage bacon and ham.",
+        "price": "51.95"
+    },
+    {
+        "name": "Rib and Wing Family Platter",
+        "description" : "2 Pound Wings 4 Half racks of ribs, fries, large coleslaw and gravy.",
+        "price": "65.00"
+    },
+    {
+        "name": "Chicken Brochette Family Pack",
+        "description" : "6 marinated chicken skewers, Greek salad, rice, roast potato, garlic bread, Greek dressing and tzatziki",
+        "price": "59.95"
+    },
+    {
+        "name": "Souvlaki Combo Family Pack",
+        "description" : "3 marinated pork skewers, 3 marinated chicken skewers,Greek salad, rice, roast potato, garlic bread, Greek dressing and tzatziki",
+        "price": "57.95"
+    },
+    {
+        "name": "Pork Souvlaki Family Pack",
+        "description" : "6 marinated pork skewers, greek salad, rice, roast potato, garlic bread, greek dressing and tzatziki",
+        "price": "56.95"
+    },
+    {
+        "name": "Chicken Parmesan Family Pack",
+        "description" : "Includes garlic bread",
+        "price": "59.95"
+    },
+    {
+        "name": "Prime Rib au Jus",
+        "description" : "Generous cut of prime rib. Served with vegetables and your choice of potatoes.",
+        "price": "33.95"
+    },
+    {
+        "name": "Jambalaya Fettuccine",
+        "description" : "Shrimp, chicken and sausage sauteed  with onions, tomato and peppers in a Cajun marinara sauce. Served with garlic bread.",
+        "price": "25.95"
+    },
+    {
+        "name": "Salmon Steak",
+        "description" : "Cedar flavoured salmon baked with garlic butter and wine. Served with vegetables, and choice of potatoes.",
+        "price": "23.95"
+    },
+    {
+        "name": "Chicken Creole",
+        "description" : "Chicken fillet tossed in a savoury wine sauce (mushrooms, onions and tomatoes). Served with vegetables and your choice of potatoes.",
+        "price": "22.95"
+    },
+    {
+        "name": "Chicken Fettuccine Florentine",
+        "description" : "Sautéed chicken and spinach tosses in fettuccine pasta in a rosé cream sauce. Served with spaghetti and garlic bread.",
+        "price": "22.95"
+    },
+    {
+        "name": "Veal Valdostana",
+        "description" : "Breaded veal topped with onions and mushrooms, and baked with cheese. Served with spaghetti and garlic bread.",
+        "price": "23.95"
+    },
+    {
+        "name": "Tuscan Chicken",
+        "description" : "Chicken fillet tossed in a rose sauce, topped with sundried tomatoes  and spinach. Served with vegetables and choice of potatoes",
+        "price": "22.95"
+    }
+]
+}

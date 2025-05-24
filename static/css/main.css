@@ -44,7 +44,7 @@
 
 .banner{
     box-shadow: 0 0 20px black;
-    border-block: 2px solid rgba(222,222,222);
+    border-block: 5px solid #e9cf9c;
     background-color: rgba(00,64,35);
     padding-block: 30px;
     overflow:hidden;
@@ -67,6 +67,10 @@
     align-items: center;
 
     animation: bannerRoll 60s linear infinite;
+}
+
+.banner>*>*{
+    color:#f7f5cf;
 }
 
 @keyframes bannerRoll{

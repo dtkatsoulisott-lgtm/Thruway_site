@@ -1,98 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- MONTSERRRAT -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- MONTSERRRAT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-        <!-- SCRIPTS AND STYLES -->
-        <link rel="stylesheet" href="./static/css/navstyles.css">
-        <link rel="stylesheet" href="./static/css/reset.css">
-        <link rel="stylesheet" href="./static/css/main.css">
-        <link rel="stylesheet" href="./static/css/footer.css">
+    <!-- SCRIPTS AND STYLES -->
+    <script src="scripts/mobile_nav.js"></script>
+    <script src="scripts/json_serve_specials.js"></script>
+    <link rel="stylesheet" href="./static/css/navstyles.css">
+    <link rel="stylesheet" href="./static/css/reset.css">
+    <link rel="stylesheet" href="./static/css/main.css">
+    <link rel="stylesheet" href="./static/css/footer.css">
+    <link rel="stylesheet" href="./static/css/menuStyles.css">
 
-        <title>Welcome to Thruway Restaurant</title>
-    </head>
-    <body>
-        <!-- NAVBAR -->
-        <ul id="nav" class="header" style="border: 50px  red">
-            <a href="index.html"><img src="static/images/Logo.webp" id="logo" class="logo"></a>
-            <div class="header-list">
-                <li><a href="menu.html">Our Menu</a></li>
-                <li><a href="https://order.valleyeats.ca/carletonplace/thruway-restaurant/#">Take-out</a></li>
-                <li><a href="tel:(613)-257-5326">Phone</a></li>
-            </div>   
+    <title>Thruway Restaurant</title>
+</head>
+<body>
+    
+<!-- NAVBAR -->
+<ul id="nav" class="header">
+    <a href="index.html"><img src="static/images/Logo.webp" id="logo" class="logo"></a>
+    <div class="header-list">
+        <li><a href="menu.html">Our Menu</a></li>
+        <li><a href="https://order.valleyeats.ca/carletonplace/thruway-restaurant/#">Take-out</a></li>
+        <li><a href="tel:(613)-257-5326">Phone</a></li>
+    </div>
+    <button class="mobile-nav-button" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded',this.classList.contains('opened'));toggleMobileNav()" aria-label="Main Menu">
+        <svg class="hamburger" width="80" height="80" viewBox="0 0 100 100">
+          <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+          <path class="line line2" d="M 20,50 H 80" />
+          <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+        </svg>
+    </button>
+</ul>
+
+<!-- BACKGROUND PARALLAX -->
+<div class="bg-parallax" style="height:100vh; background-image: url(static/images/restaurant.webp);">
+    <div style="margin: 45vh 12.5% 0 12.5%; width: 75%;">
+        <a href="menu.html" class="button">Our Menu</a>
+        <p style="margin: 28px 0; color: aliceblue; font-size: 1.2em; text-shadow: 0 0 5px black">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        </p>
+    </div>
+</div>
+
+<!-- FOREGROUND PARALLAX -->
+<div class="fg-parallax" style="width: 100vw; margin-top:75vh; display: grid;">
+    <!-- BANNER -->
+    <div class="banner">
+        <ul>
+            <li>THRUWAY RESTAURANT</li>
+            <li>MENU ITEM</li>
+            <li>TAKE-OUT</li>
+            <li>YUMMY DISH</li>
+            <li>THRUWAY RESTAURANT</li>
+            <li>MENU ITEM</li>
+            <li>TAKE-OUT</li>
+            <li>YUMMY DISH</li>
+            <li>THRUWAY RESTAURANT</li>
+            <li>MENU ITEM</li>
+            <li>TAKE-OUT</li>
+            <li>YUMMY DISH</li>
         </ul>
+        <ul aria-hidden="true">
+            <li>THRUWAY RESTAURANT</li>
+            <li>MENU ITEM</li>
+            <li>TAKE-OUT</li>
+            <li>YUMMY DISH</li>
+            <li>THRUWAY RESTAURANT</li>
+            <li>MENU ITEM</li>
+            <li>TAKE-OUT</li>
+            <li>YUMMY DISH</li>
+            <li>THRUWAY RESTAURANT</li>
+            <li>MENU ITEM</li>
+            <li>TAKE-OUT</li>
+            <li>YUMMY DISH</li>
+            
+        </ul>
+    </div>
 
-        <!-- BACKGROUND PARALLAX -->
-        <div class="bg-parallax" style="height:100vh; background-image: url(static/images/restaurant.webp);">
-            <div style="margin: 45vh 12.5% 0 12.5%; width: 75%;">
-                <a href="menu.html" class="button">Our Menu</a>
-                <p style="margin: 28px 0; color: aliceblue; font-size: 1.2em; text-shadow: 0 0 5px black">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                </p>
-            </div>
+    <div style="background-color: rgb(20, 20 ,20); padding: 5% 0 ">
+        <div class="specials-heading">
+            <h1>Our Specials</h1>
+            <p>Preordering of family packs is recomended</p>
         </div>
-        
-        <!-- FOREGROUND PARALLAX -->
-        <div class="fg-parallax" style="width: 100vw; margin-top:75vh; display: grid;">
-            <!-- BANNER -->
-            <div class="banner">
-                <ul>
-                    <li>THRUWAY RESTAURANT</li>
-                    <li>MENU ITEM</li>
-                    <li>TAKE-OUT</li>
-                    <li>YUMMY DISH</li>
-                    <li>THRUWAY RESTAURANT</li>
-                    <li>MENU ITEM</li>
-                    <li>TAKE-OUT</li>
-                    <li>YUMMY DISH</li>
-                    <li>THRUWAY RESTAURANT</li>
-                    <li>MENU ITEM</li>
-                    <li>TAKE-OUT</li>
-                    <li>YUMMY DISH</li>
-                </ul>
-                <ul aria-hidden="true">
-                    <li>THRUWAY RESTAURANT</li>
-                    <li>MENU ITEM</li>
-                    <li>TAKE-OUT</li>
-                    <li>YUMMY DISH</li>
-                    <li>THRUWAY RESTAURANT</li>
-                    <li>MENU ITEM</li>
-                    <li>TAKE-OUT</li>
-                    <li>YUMMY DISH</li>
-                    <li>THRUWAY RESTAURANT</li>
-                    <li>MENU ITEM</li>
-                    <li>TAKE-OUT</li>
-                    <li>YUMMY DISH</li>
-                    
-                </ul>
-            </div>
+        <div class="menu white" id="specials"></div>
+    </div>
 
-            <div style="background-color: rgb(20, 20 ,20); padding: 50px 12.5%; width: 75%">
-                <p>Test test test</p>
-                <div class="temp-image" style="padding-top: 900px; width:100%;"></div>
-            </div>
-
-             <!-- FOOTER -->
-            <div class="footer">
-                <div class="footer-top">
-                    <a class="link" href="tel:(613)-257-5326">(613)-257-5326</a>
-                    <strong>THRUWAY RESTAURANT</strong>
-                    <a class="link" href="https://www.google.ca/maps/place/Thruway+Restaurant/@45.1317222,-76.1245907,17z/data=!3m2!4b1!5s0x4cd20ea001400563:0x7bcdd75c5013db46!4m6!3m5!1s0x4cd20e7dce89a1bf:0xbdcb5deb1f45d3c5!8m2!3d45.1317222!4d-76.1220211!16s%2Fg%2F1tgps7mw?entry=ttu&g_ep=EgoyMDI1MDQyMi4wIKXMDSoASAFQAw%3D%3D">10432 Highway 7</a>
-                </div>
-                <div class="footer-bottom">
-                    <img src="static/images/Logo.webp" class="footer-logo">
-                    <div><span>Copyright © <span id="year"></span> Thruway Restaurant - All Rights Reserved</span></div>
-                </div>
-            </div>
-
+    <!-- FOOTER -->
+    <div class="footer">
+        <div class="footer-top">
+            <a class="link" href="tel:(613)-257-5326">(613)-257-5326</a>
+            <strong>THRUWAY RESTAURANT</strong>
+            <a class="link" href="https://www.google.ca/maps/place/Thruway+Restaurant/@45.1317222,-76.1245907,17z/data=!3m2!4b1!5s0x4cd20ea001400563:0x7bcdd75c5013db46!4m6!3m5!1s0x4cd20e7dce89a1bf:0xbdcb5deb1f45d3c5!8m2!3d45.1317222!4d-76.1220211!16s%2Fg%2F1tgps7mw?entry=ttu&g_ep=EgoyMDI1MDQyMi4wIKXMDSoASAFQAw%3D%3D">10432 Highway 7</a>
         </div>
-        <!-- SCRIPTS TO LOAD AFTER DOM IS LOADED -->
-        <script src="scripts/nav.js"></script>
-    </body>
+        <img src="static/images/Logo.webp" class="footer-logo">
+        <div><span>Copyright © <span id="year"></span> Thruway Restaurant - All Rights Reserved</span></div>
+    </div>
+</div>
+
+<!-- SCRIPTS TO LOAD AFTER DOM IS LOADED -->
+<script>
+    let date = new Date();
+    let year = date.getFullYear();
+    document.getElementById('year').innerHTML = year;
+</script>
+<script src="scripts/nav.js"></script>
+</body>
 </html>

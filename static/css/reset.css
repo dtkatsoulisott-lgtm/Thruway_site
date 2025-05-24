@@ -1,5 +1,5 @@
 *{
-    color:rgba(222,222,222);
+    color:rgba(247, 245, 207);
     text-decoration: none;
     margin: 0;
     padding: 0;
@@ -18,8 +18,13 @@
 }
 
 body{
+    background-color: rgba(00,64,35);
     display: grid;
     height: 100%;
+    /* position: fixed; */
+    width: 100%;
+    overscroll-behavior: none;
+    /* overflow: hidden; */
     /* margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
