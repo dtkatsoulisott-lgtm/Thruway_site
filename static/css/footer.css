@@ -1,6 +1,7 @@
 .footer{
     /* margin-top: 10vh; */
-    padding: 0 15% 10px 15%;
+    font-size: 1.25rem;
+    padding: 15px 15% 50px 15%;
     min-height: 160px;
     background-color: rgb(22, 22, 22);
     border-block-start: 5px solid #e9cf9c;
@@ -18,6 +19,12 @@
     padding-top: 15px;
     padding-bottom: 25px;
     height: 50px;
+}
+
+@media screen and (max-width: 800px) {
+    .footer{
+        font-size: 1rem;
+    }
 }
 
 @media screen and (max-width: 500px) {

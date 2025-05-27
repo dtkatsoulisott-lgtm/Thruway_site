@@ -43,6 +43,10 @@ async function serveCategory(menuTag, objCategory) {
             price.style.whiteSpace = 'pre-line';
         }
 
+        name.classList.add("light");
+        description.classList.add("dark");
+        price.classList.add("light");
+
         entry.appendChild(name);
         entry.appendChild(description);
         entry.appendChild(price);
@@ -73,7 +77,7 @@ async function serveCategoryWithTitle(menuTag, titleField, objCategory){
     
     const menu = document.getElementById(menuTag);
     const title = document.createElement("h1");
-    title.classList.add("menu-title")
+    title.classList.add("menu-title", "light")
     menu.appendChild(title);
     title.innerText = titleField.toUpperCase()
     

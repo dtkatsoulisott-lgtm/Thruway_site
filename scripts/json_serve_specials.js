@@ -14,7 +14,6 @@ async function serveSpecials() {
 
         const entry = document.createElement("li");
         entry.classList.add("menu-entry");
-        entry.classList.add("white");
 
         let name = document.createElement("div");
         let description = document.createElement("div");
@@ -44,6 +43,10 @@ async function serveSpecials() {
             }
             price.style.whiteSpace = 'pre-line';
         }
+
+        name.classList.add("light");
+        description.classList.add("dark");
+        price.classList.add("light");
 
         entry.appendChild(name);
         entry.appendChild(description);
