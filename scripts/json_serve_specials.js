@@ -1,5 +1,5 @@
 async function fetchSpecials() {
-    const requestURL = "./json/specials.json";
+    const requestURL = "https://landwhich.github.io/Thruway_site/json/specials.json";
     const request = new Request(requestURL);
 
     const response = await fetch(request);
