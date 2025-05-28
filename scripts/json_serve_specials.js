@@ -1,5 +1,5 @@
 async function fetchSpecials() {
-    const requestURL = "../json/specials.json";
+    const requestURL = "./json/specials.json";
     const request = new Request(requestURL);
 
     const response = await fetch(request);
