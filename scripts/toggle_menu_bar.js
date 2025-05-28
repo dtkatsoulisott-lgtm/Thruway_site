@@ -1,4 +1,4 @@
 function toggleMenuBar () {
     menuBar = document.querySelector(".menu-bar");
-    menuBar.classList.toggle("open");
+    menuBar.classList.toggle("closed");
 }

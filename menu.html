@@ -39,7 +39,7 @@
     </button>
 </ul>
 
-<div class="menu-bar">
+<div class="menu-bar closed">
     <div class="menu-button-list">
     <!-- FOOD -->
     <button class="menu-button" onclick="
@@ -51,27 +51,32 @@
         serveCategoryWithTitle('menu-5', 'French Toast', 'french toast'); 
         serveCategoryWithTitle('menu-6', 'Wraps', 'breakfast wraps'); 
         serveCategoryWithTitle('menu-7', 'Meat Orders', 'meat orders'); 
+        toggleMenuBar();
     ">Breakfast</button>
     <button class="menu-button" onclick="
         clearContext();
         serveCategoryWithTitle('menu-1', 'Appetizers', 'appetizers'); 
         serveCategoryWithTitle('menu-2', 'Soups & Salads', 'soups and salads'); 
+        toggleMenuBar();
     ">Sides</button>
     <button class="menu-button" onclick="
         clearContext();
         serveCategoryWithTitle('menu-1', 'Greek Dishes', 'greek dishes'); 
         serveCategoryWithTitle('menu-2', 'Stir Fry', 'stir fry'); 
+        toggleMenuBar();
     ">Greek & Stir Fry</button>
     <button class="menu-button" onclick="
         clearContext();
         serveCategoryWithTitle('menu-1', 'Sandwiches', 'sandwiches'); 
         serveCategoryWithTitle('menu-2', 'Triple Deckers', 'triple deckers'); 
         serveCategoryWithTitle('menu-3', 'Wraps', 'wraps'); 
+        toggleMenuBar();
     ">Handhelds</button>
     <button class="menu-button" onclick="
         clearContext();
         serveCategoryWithTitle('menu-1', 'Burgers', 'burgers'); 
         serveCategoryWithTitle('menu-2', 'Fries', 'poutine'); 
+        toggleMenuBar();
     ">Burgers & Fries</button>
     <button class="menu-button" onclick="
         clearContext();
@@ -79,16 +84,19 @@
         serveCategoryWithTitle('menu-2', 'Steaks', 'steaks');  
         serveCategoryWithTitle('menu-3', 'Chicken & Ribs', 'chicken and ribs');  
         serveCategoryWithTitle('menu-4', 'Seafood', 'seafood');  
+        toggleMenuBar();
     ">Entrees</button>
     <button class="menu-button" onclick="
         clearContext();
         serveCategoryWithTitle('menu-1', 'Pasta Dishes', 'pasta'); 
         serveCategoryWithTitle('menu-2', 'Pizza', 'pizza'); 
+        toggleMenuBar();
     ">Pizza & Pasta</button>
     <button class="menu-button" onclick="
         clearContext();
         serveCategoryWithTitle('menu-1', 'Senior\'s Menu', 'senior\'s menu');
         serveCategoryWithTitle('menu-2', 'Kid\'s Menu', 'kid\'s menu');
+        toggleMenuBar();
     ">Kid's & Senior's</button>
     <!-- DRINKS -->
     <button class="menu-button" onclick="
@@ -100,11 +108,13 @@
         serveCategoryWithTitle('menu-5', 'Beer', 'beer');
         serveCategoryWithTitle('menu-6', 'Liquor', 'coolers and liquor');
         serveCategoryWithTitle('menu-7', 'Coffee', 'specialty coffee');
+        toggleMenuBar();
     ">Drinks</button>
     <button class="menu-button" onclick="
         clearContext();
         serveCategoryWithTitle('menu-1', 'Beverages', 'beverages');
         serveCategoryWithTitle('menu-2', 'Coffee and Tea', 'coffee and tea');
+        toggleMenuBar();
     ">Beverages</button>
     <!-- EXTRAS -->
     <button class="menu-button" onclick="
@@ -112,22 +122,38 @@
         serveCategoryWithTitle('menu-1', 'Extras', 'extras');
         serveCategoryWithTitle('menu-2', 'Side Orders', 'side orders');
         serveCategoryWithTitle('menu-3', 'Other', 'other');
+        toggleMenuBar();
     ">Extras</button>
     <button class="menu-button" onclick="
         clearContext();
         serveCategoryWithTitle('menu-1', 'Dessert', 'desserts');
+        toggleMenuBar();
     ">Desserts</button>
 </div>
 <button class="menu-bar-button" onclick="toggleMenuBar()">
-    <p>MENU</p>
+    <span>CLICK TO OPEN MENU</span>
+</button>
+<button 
+    style="   
+        width: 100%;
+        height: 100%;
+        opacity:0;
+    "
+    onclick="toggleMenuBar()">
 </button>
 </div>
 
-
 <!-- BG PARALLAX -->
-<!-- <div class="bg-parallax" style="padding-top:5vh;"> -->
+<div class="bg-parallax" 
+    style="
+        padding-top:35vh;
+        background-color: rgb(00,64,35);
+        margin: 0 10%;
+        width: 80%;
+    ">
+    Click the "Click To Open Menu" button at the bottom of the screen on mobile or left of the screen on desktop. <br> <br> Then make a selection and scroll to the bottom to view our menu
     <!-- MENU OPTIONS: [ DIV NAME | TITLE | JSON OBJECT ] -->
-<!-- </div> -->
+</div>
 
 <!-- FOREGROUND PARALLAX -->
 <div class="fg-parallax" style="position:relative; width: 100vw; margin-top:60vh; display: grid;">

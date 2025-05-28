@@ -16,9 +16,6 @@
 
 .bg-parallax{
     position: fixed;
-    width: 100%;
-    background-color: black;
-    z-index: 1;
 }
 
 .fg-parallax{
