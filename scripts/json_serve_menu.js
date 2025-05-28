@@ -1,5 +1,5 @@
 async function fetchMenu() {
-    const requestURL = "./json/menu_items.json";
+    const requestURL = "./Thruway_site/json/menu_items.json";
     const request = new Request(requestURL);
 
     const response = await fetch(request);
