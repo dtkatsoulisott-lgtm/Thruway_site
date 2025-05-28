@@ -115,7 +115,8 @@
     box-shadow: 0 0 1px 0 black;
     font-weight: 800;
     font-size: 1.25rem;
-    width: 97.5%;
+    width: 95%;
+    margin: 0 2.5%;
     background-color: rgb(0, 44, 24);
     transition: background-color 0.2s ease, opacity ease 0.35s;
     border-radius: 3px;
@@ -130,7 +131,6 @@
 @media screen and (min-width: 801px) {
     .menu-button-list{
         transition: width ease 0.5s;
-
     }
     .menu-bar{
         grid-template-columns: 400px 75px 100vw;
@@ -153,8 +153,6 @@
         width: 100%;
     }
     .menu-button{
-        width: 95%;
-        margin: 0 2.5%;
         font-weight: 700;
         font-size: 1.1rem;
         /* background-color: rgba(00,64,35); */
