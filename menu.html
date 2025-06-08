@@ -12,6 +12,7 @@
     <script src="scripts/mobile_nav.js"></script>
     <script src="scripts/json_serve_menu.js"></script>
     <script src="scripts/toggle_menu_bar.js"></script>
+    <script src="scripts/slideshow.js"></script>
     <link rel="stylesheet" href="./static/css/navstyles.css">
     <link rel="stylesheet" href="./static/css/reset.css">
     <link rel="stylesheet" href="./static/css/menuStyles.css">
@@ -144,14 +145,38 @@
 </div>
 
 <!-- BG PARALLAX -->
-<div class="bg-parallax" 
-    style="
-        padding-top:35vh;
-        background-color: rgb(00,64,35);
-        margin: 0 10%;
-        width: 80%;
-    ">
-    Click the "Click To Open Menu" button at the bottom of the screen on mobile or left of the screen on desktop. <br> <br> Then make a selection and scroll to the bottom to view our menu
+<div class="bg-parallax">
+    <div class="slides-container" style="position: fixed">
+        <div  style="
+        position: absolute;
+        z-index:1;
+        top: 35vh;
+        left: 10vw;
+        width: 80vw;
+        ">
+            <p style="color: aliceblue; font-size: 1.3em; font-weight: 600; text-shadow: 0 0 5px black">
+                Press on the "Click To Open Menu" button, Then make a selection
+            </p>
+        </div>
+        <div class="slide">
+            <img src="static/images/chicken_burger.jpeg" style="width:100%">
+        </div>
+        <div class="slide">
+            <img src="static/images/chicken_tenders.jpeg" style="width:100%">
+        </div>
+        <div class="slide">
+            <img src="static/images/eggs_and_toast.jpg" style="width:100%">
+        </div>
+        <div class="slide">
+            <img src="static/images/fish_and_chips.JPG" style="width:100%">
+        </div>
+        <div class="slide">
+            <img src="static/images/souvlaki-express-3.jpg" style="width:100%">
+        </div>
+        <div class="slide">
+            <img src="static/images/wings.jpg" style="width:100%">
+        </div>
+    </div>
     <!-- MENU OPTIONS: [ DIV NAME | TITLE | JSON OBJECT ] -->
 </div>
 
@@ -215,6 +240,9 @@
     let date = new Date();
     let year = date.getFullYear();
     document.getElementById('year').innerHTML = year;
+
+    let slideIndex = 0;
+    showSlides();
 </script>
 <script src="scripts/nav.js"></script>
 </body>

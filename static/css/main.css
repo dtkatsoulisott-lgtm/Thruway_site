@@ -70,6 +70,19 @@
     color:#f7f5cf;
 }
 
+.slide{
+    position: absolute;
+    transition: opacity 0.5s ease;
+    overflow: hidden;
+}
+
+.slide>img{
+    min-width: 100vw;
+    min-height: 100vh;
+    vertical-align: center;
+    object-fit: cover;
+}
+
 @keyframes bannerRoll{
     to{
         transform: translateX(calc(-100% - var(--gap)));

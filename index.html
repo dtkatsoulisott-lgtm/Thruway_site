@@ -11,6 +11,7 @@
     <!-- SCRIPTS AND STYLES -->
     <script src="scripts/mobile_nav.js"></script>
     <script src="scripts/json_serve_specials.js"></script>
+    <script src="scripts/slideshow.js"></script>
     <link rel="stylesheet" href="./static/css/navstyles.css">
     <link rel="stylesheet" href="./static/css/reset.css">
     <link rel="stylesheet" href="./static/css/main.css">
@@ -39,13 +40,42 @@
 </ul>
 
 <!-- BACKGROUND PARALLAX -->
-<div class="bg-parallax" style="height:100vh; background-image: url(static/images/restaurant.webp);">
-    <div style="margin: 45vh 12.5% 0 12.5%; width: 75%;">
-        <a href="menu.html" class="button">Our Menu</a>
-        <p style="margin: 28px 0; color: aliceblue; font-size: 1.2em; text-shadow: 0 0 5px black">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-        </p>
+<div class="bg-parallax" style="height:100vh;">
+    <div class="slides-container" style="position: fixed">
+        <div  style="
+        position: absolute;
+        z-index:1;
+        top: 45vh;
+        left: 10vw;
+        width: 80vw;
+        ">
+            <a href="menu.html" class="button">Our Menu</a>
+            <p style="margin: 28px 0; color: aliceblue; font-size: 1.2em; font-weight: 600; text-shadow: 0 0 5px black">
+                Click to see our menu button or scroll down to see specials and more
+            </p>
+        </div>
+        
+        <div class="slide">
+            <img src="static/images/restaurant.webp" style="width:100%">
+        </div>
+        <div class="slide">
+            <img src="static/images/chicken_burger.jpeg" style="width:100%">
+        </div>
+        <div class="slide">
+            <img src="static/images/chicken_tenders.jpeg" style="width:100%">
+        </div>
+        <div class="slide">
+            <img src="static/images/eggs_and_toast.jpg" style="width:100%">
+        </div>
+        <div class="slide">
+            <img src="static/images/fish_and_chips.JPG" style="width:100%">
+        </div>
+        <div class="slide">
+            <img src="static/images/souvlaki-express-3.jpg" style="width:100%">
+        </div>
+        <div class="slide">
+            <img src="static/images/wings.jpg" style="width:100%">
+        </div>
     </div>
 </div>
 
@@ -109,6 +139,9 @@
     let date = new Date();
     let year = date.getFullYear();
     document.getElementById('year').innerHTML = year;
+
+    let slideIndex = 0;
+    showSlides();
 </script>
 <script src="scripts/nav.js"></script>
 </body>
